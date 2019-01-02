@@ -1,0 +1,74 @@
+.my_div01{
+	width: 100%;
+	height: 0.4rem;
+	background: #E9E9E9;
+}
+.my_ip01{
+	padding-top: 0.05rem;
+	padding-left: 0.14rem;
+	padding-right: 0.14rem;
+	box-sizing: border-box;
+	
+}
+.mui-search .mui-placeholder{
+	padding-right: 0.5rem;
+}
+.my_div01 input{
+    width: 85%;
+    height: 0.3rem;
+	background: #FFFFFF;
+	border-radius: 0.04rem;
+	font-size: 0.14rem;
+}
+.my_a01{
+	color: #2A2A2A;
+}
+.my_sp01{
+	display: block;
+	float: right;
+	padding-top: 0.05rem;
+}
+.mui-input-row.mui-search .mui-icon-clear{
+	right: 49px;
+	top: 6px;
+}
+
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

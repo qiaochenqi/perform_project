@@ -1,0 +1,103 @@
+.mui-bar{
+	background: #181818;
+	height: 0.42rem;
+}
+.mui-title{
+	color: #ffffff;
+	font-size: .2rem;
+}
+.mui-icon-left-nav{
+	color: #ffffff;
+	font-size: .16rem;
+}
+.mui-segmented-control{
+	border: .01rem solid #FFFFFF;
+}
+.banx{
+	width: 100%;
+	/*height: 10.48rem;*/
+	padding-top: 1rem;
+}
+.banx_1{
+	width: 70%;
+	height: 3.03rem;
+	margin: auto;
+}
+.tupian{
+	width: 100%;
+	height: 2.2rem;
+	margin: auto;
+}
+.tupian img{
+	width: 100%;
+	height: 2rem;
+	padding-left: .3rem;
+}
+.zi{
+	width: 95%;
+	height: 1rem;
+	margin: auto;
+}
+.zi p{
+	font-size: .18rem;
+	color: #9F9FA0;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: .42rem;
+	background: #D0021B;
+}
+.zi1{
+	width: 1rem;
+	height: .4rem;
+	line-height: .4rem;
+	margin: auto;
+	text-align: center;
+}
+.zi1 a{
+	font-size: .16rem;
+	color: #FFFFFF;
+	
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}
+

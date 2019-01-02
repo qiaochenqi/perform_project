@@ -1,0 +1,105 @@
+.main{
+	width: 1002px;
+	height: 1182px;
+	margin-top: -5px;
+	margin: 0 auto;
+}
+.nav{
+	width: 1001px;
+	height: 170px;
+	
+}
+.center{
+	width: 1000px;
+	height: 987px;
+	
+	border: 1px darkgray solid;
+}
+.left{
+	width: 235px;
+	height: 1010px;
+
+	float: left;
+}
+.left ul li input{
+	width: 170px;
+	height: 27px;
+	border: 1px solid darkgray;
+	font-size: 11px;
+	text-align: center;
+	color: #8f8f8f;
+}
+.left ul li input:hover{
+	background: red;
+}
+.left ul{
+	padding-left: 32px;
+	padding-top: 17px;
+}
+.right{
+	width: 765px;
+	height: 1010px;
+
+	float: left;
+}
+.top{
+	width: 765px;
+	height: 59px;
+	border-bottom: 1px #666666 solid;
+
+}
+.top img{
+	position: relative;
+    top: 38px;
+    left: 19px;
+    float: left;
+}
+.top span{
+	font-size: 16px;
+}
+.bottom{
+	width: 765px;
+	height: 226px;
+	
+}
+.height_164{
+	width: 765px;
+	height: 164px;
+
+}
+.height_164 ul li{
+	float: left;
+}
+.height_164 ul{
+	padding-top: 25px;
+	padding-left: 15px;
+}
+.height_62{
+	width: 765px;
+	height: 62px;
+	
+}
+.bottom_724{
+	width: 765px;
+	height: 724px;
+
+}
+.height_202{
+	width: 765px;
+	height: 202px;
+	
+}
+.height_202 ul li{
+     	width: 150px;
+     	height: 158px;
+     	float: left;
+     	border-right: 1px solid darkgray;
+     	margin-left: 15px;
+     	
+}
+.height_202 ul li:last-child{
+     border: none;
+     	
+}
+
+

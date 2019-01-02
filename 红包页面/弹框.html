@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{margin: 0;padding: 0;}
+			#bg{
+				background: rgba(0, 0, 0, 0.5);;
+				position: absolute;
+				top: 0;
+				display: none;
+			}
+			#xianshi{
+				display: none;
+				width: 200px;
+				height: 100px;
+				background: #fff;
+				position: absolute;
+				top:30%;
+				left: 40%;			
+				}
+		</style>
+	</head>
+	<body class="">
+		<a href="javascript:0" onclick="fun()">点我</a>
+		<div id="bg"></div>
+		<div id="xianshi">
+			<p>请输入密码</p>
+		</div>
+		<script type="text/javascript">
+				//a获取屏幕宽度，b获取屏幕高度
+				var a=window.innerWidth||document.body.scrollWidth;
+				var b=window.innerHeight||document.body.scrollHeight;
+				var c=document.getElementById("bg");
+				//c获取标签填入宽高
+				c.style.width=  a + "px";
+				c.style.height= b + "px";
+			function fun(){
+				document.getElementById("bg").style.display="block";
+				document.getElementById("xianshi").style.display="block";
+			}
+			c.onclick=function(){
+				document.getElementById("bg").style.display="none";
+				document.getElementById("xianshi").style.display="none";
+			}
+		</script>
+	</body>
+</html>

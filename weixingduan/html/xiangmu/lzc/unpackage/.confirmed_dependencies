@@ -1,0 +1,31 @@
+{
+	"html/15html.html": {
+		"resources": [
+			"images/所有页面-个人资料－改头像_03.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/16four.html": {
+		"resources": [
+			"images/所有页面-商品详情_16.png",
+			"images/所有页面-商品详情_18.png",
+			"images/所有页面-商品详情_17_16.png",
+			"images/所有页面-商品详情_05.png",
+			"images/所有页面-商品详情_07.png",
+			"images/所有页面-商品详情_20.png",
+			"images/所有页面-商品详情_03.png",
+			"images/所有页面-商品详情_02.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"index.html": {
+		"refer": [
+			"html/16four.html",
+			"html/15html.html"
+		]
+	}
+}

@@ -1,0 +1,51 @@
+.mui-bar .mui-icon {
+	font-size: 20px;
+	position: relative;
+	z-index: 20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 0.35rem;
+}
+.mui-bar{
+	background: #181818;
+	height: 0.5rem;
+}
+.mui-title{
+	color: #ffffff;
+	font-size: .2rem;
+}
+.mui-icon-left-nav{
+	color: #ffffff;
+	font-size: .16rem;
+}
+.mui-content li{
+	width: 49%;
+	height: 2.8rem;
+	border: 0.01rem solid #000000;
+	float: left;
+}
+.mui-table-view .mui-media-object {
+	line-height: 0.42rem;
+	max-width: 2.05rem;
+	height: 2.02rem;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: -22px -35px;
+	padding: inherit;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: inherit;
+}
+.mui-media-body{
+	margin-top: 2.15rem;
+ 	font-size: 14px;
+	color: #2A2A2A;
+	margin-left: .09rem;
+}
+.mui-ellipsis{
+	font-size: 18px;
+	color: #D0021B;
+}

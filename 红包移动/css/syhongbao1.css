@@ -1,0 +1,83 @@
+ul{
+	margin-top: 0.21rem;
+	width: 100%;
+}
+ul li:nth-child(n+2){
+	margin-top: 0.1rem;
+}
+ul li{
+	width: 3.55rem;
+	height: 0.6rem;
+	margin: 0 auto;
+	border-radius: 0.06rem;
+	overflow: hidden;
+	border: 1px solid #E4E4E4;
+}
+ul li span:nth-child(1){
+	float: left;
+	font-size: 0.16rem;
+	color: #4A4A4A;
+	padding-top: 0.21rem;
+	padding-left: 0.11rem;
+}
+ul li span:nth-child(2){
+	color: #9B9B9B;
+	font-size: 0.16rem;
+	padding-top: 0.21rem;
+	padding-right: 0.13rem;
+	float: right;
+}
+ul li img{
+	width: 0.08rem;
+	height: 0.13rem;
+}
+.my_p01{
+	overflow: hidden;
+	margin-top: 0.2rem;
+	padding-left: 0.74rem;
+	margin-bottom: 1.9rem;
+}
+.my_p01 img{
+	float: left;
+	width: 0.14rem;
+	height: 0.14rem;
+	position: relative;
+	top: 0.03rem;
+	left: -0.1rem;
+}
+.my_p01 span:first-child{
+	float: left;
+	font-size: 0.14rem;
+	color: #D84E43;
+}
+.my_p01 span:last-child{
+	float: left;
+	font-size: 0.14rem;
+	color: #9B9B9B;
+	margin-left: 0.8rem;
+}
+.my_p02{
+	width: 3.35rem;
+	height: 0.4rem;
+	border-radius: 0.07rem;
+	margin: 0 auto;
+	background: #DEDCDC;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.16rem;
+	color: #9B9B9B;
+}
+.my_p03{
+	font-size: .14rem;
+	color: #D84E43;
+	padding-left: 1.47rem;
+	margin-top: 0.3rem;
+}
+.my_p04 span{
+	color: #D84E43;
+}
+.my_p04{
+	padding-left: 0.56rem;
+	margin-top: 0.1rem;
+	font-size: 0.12rem;
+}

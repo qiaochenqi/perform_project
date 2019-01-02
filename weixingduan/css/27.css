@@ -1,0 +1,86 @@
+.mui-content>.mui-table-view:first-child{
+	margin: 0;
+}
+.mui-table-view-cell{
+	line-height: 0.55rem;
+	padding-left: .22rem;
+}
+.mui-table-view-cell:after{
+	left: 0;
+}
+
+.mui-content ul li:nth-child(n+2) a:after{
+	content:'';
+}
+.div_01{
+	height: 3rem;
+	background: #FFFFFF;
+	padding-top: .19rem;
+	padding-left: .39rem;
+	box-sizing: border-box;
+}
+.div_01 p{
+
+	margin: 0;
+	padding: 0;
+	font-size: 0.14rem;
+}
+.div_01 p:first-child{
+	float: left;
+	width: 0.17rem;
+	height: 0.17rem;
+	text-align: center;
+	margin-right: 0.1rem;
+	background: #E8E8E8;
+	border-radius: 50%;
+}
+.div_01 p:last-child{
+		float: left;
+	width:90%;
+	height: 0.31rem;
+}
+.mui-bar-tab{
+	background: #D0021B;
+}
+.mui-bar-tab a span{
+	color: #FFFFFF;
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

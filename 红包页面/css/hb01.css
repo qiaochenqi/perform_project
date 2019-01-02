@@ -1,0 +1,172 @@
+.hb_01{
+	width: 1730px;
+	height: 1802px;
+	/*background: red;*/
+}
+.hb_02{
+	width: 1675px;
+	height: 1776px;
+	margin: 0 auto;
+	padding-top: 26px;
+	/*background: blue;*/
+}
+/*--------------------------*/
+.hb_03{
+	width: 1675px;
+	height: 200px;
+	/*background: #003399;*/
+	border: 1px solid #e5e5e5;
+}
+.hb_031{
+	width: 1657px;
+	height: 35px;
+	padding-top: 17px;
+	padding-left: 18px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #e5e5e5;
+}
+.hb_031 b{
+	float: left;
+	font-size: 18px;
+}
+.hb_03 ul {
+	
+}
+.hb_03 ul li{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 12.4%;
+	margin-top: 31px;
+	padding-top: 30px;
+	font-size: 16px;
+	border-right:1px solid #f2f2f2;
+}
+
+.hb_03 ul li .hbp_031{
+	color: red;
+}
+.hb_03 ul li .hbp_031 span{
+	color: #333333;
+}
+/*--------------------------*/
+.hb_04{
+	width: 1675px;
+	height: 668px;
+	margin-top: 27px;
+	border: 1px solid #e5e5e5;
+	/*background: #CC0000;*/
+}
+
+.hb_031 ul li{
+	text-align: center;
+	width: 77px;
+	float: right;
+	font-size: 14px;
+	border-right: 1px solid #e5e5e5;
+}
+.hb_031 ul input{
+	float: right;
+}
+.hb_031 ul li:hover{
+	background: #377bb5;
+	color: #ffffff;
+}
+/*---------------------------*/
+.hb_05{
+	width: 1675px;
+	height: 787px;
+	margin-top: 27px;
+	border: 1px solid #e5e5e5;
+	/*background: #FFFFFF;*/
+}
+.hb_052{
+	padding-left: 20px;
+}
+.fm_01{
+	font-size: 14px;
+	margin: 38px auto auto 16px;
+}
+.fm_01 input{
+	border-radius: 3px;
+}
+.in_01,.in_02{
+	width: 200px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+}
+.in_03{
+	width: 90px;
+	height: 42px;
+	border: none;
+	background: #377bb5;
+	position: relative;
+	top: 2px;
+	left: 22px;
+	color: #FFFFFF;
+}
+thead{
+	background: #f7f8f9;
+}
+table tr{
+	height: 45px;
+}
+table{
+	margin-top: 40px
+}
+.hb_051{
+	width: 1635px;
+	height: 30px;
+	margin-top: 30px;
+}
+.hb_051 span{
+	float: left;
+}
+.hb_051 ul li {
+	text-align: center;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	border: 1px solid #dddddd;
+}
+.hb_051 ul li:hover{
+	background: #367bb5;
+	color: #FFFFFF;
+}
+.wenti_01{
+	height: 53px;
+	width: 465px;
+	border-bottom: solid 1px #eaeaea;
+}
+.wenti_01 h2{
+	line-height: 53px;
+	font-size: 16px;
+	float: left;
+}
+.wenti_01 span{
+	font-size: 20px;
+	line-height: 53px;
+	float: right;
+}
+.wenti_01 span a{
+	color: #000000;
+	text-decoration: none;
+}
+.p_01{
+	font-size: 14px;
+}
+.ps_01{
+	color: #5891c1;
+}
+.wenti_02{
+	padding-top: 27px;
+}
+.wenti_02 ul{
+	padding-left: 26px;
+	
+}
+.wenti_02 ul li{
+	color: #c5c5c5;
+	margin-top: 13px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta charset="utf-8">
+    <!-- 引入 ECharts 文件 -->
+    <script src="../js/echarts.js"></script>
+    <script src="../js/china.js"></script>
+	<script src="../theme/dark.js"></script>
+	<script src="../theme/infographic.js"></script>
+	<script src="../theme/macarons.js"></script>
+	<script src="../theme/roma.js"></script>
+	<script src="../theme/shine.js"></script>
+	<script src="../theme/vintage.js"></script>
+    
+</header>
+<body style="width: 800px; height: 500px;">
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="width: 1200px;height:500px;"></div>
+	
+    <script type="text/javascript">
+	var myChart = echarts.init(document.getElementById('main'),'macarons');
+var colors = ['#5793f3', '#d14a61', '#bcd0c4'];
+
+option = {
+    xAxis: {
+        type: 'category',
+        data: ['2010年', '2011年', '2012年', '2013年', '2014年']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [120, 200, 150, 80, 70],
+        type: 'bar'
+    }]
+};
+
+
+
+        
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

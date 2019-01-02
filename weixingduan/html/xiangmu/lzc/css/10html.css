@@ -1,0 +1,137 @@
+.aui-btn{
+	width: .05rem;
+	height: .05rem;
+	border-radius: 50%;
+	float: right;
+	background: #FFFEFE;
+	position: relative;
+	top: .2rem;
+}
+.aui-actionsheet{
+	width: 80%;
+    overflow: hidden;
+    background: #FCFCFC;
+    border-radius: .12rem;
+    padding-top: .15rem;
+    line-height: .3rem;
+	text-align: center;
+	position: fixed;
+	bottom: .1rem;
+	left: 10%;
+	padding-bottom: .05rem;
+	box-shadow: 0 13rem 10rem 15rem #BDC3C7;
+}
+.aui-actionsheet-btn-item{
+	margin-top: .1rem;
+}
+header{
+	float: left;
+}
+.mui-table-view-cell-m{
+	height: .05rem !important;
+	
+}
+.mui-content ul li:nth-child(1){
+		
+}
+.mui-content ul li{
+	margin-top: .12rem;
+	height: .55rem;
+}
+.mui-content ul li a{
+	line-height: .35rem;
+	text-decoration: none;
+	font-size: .14rem;
+}
+body{
+	overflow: hidden;
+	background: white;
+}
+.aui-btn{
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	background: url(../images/gtouxiang_01.png)no-repeat;
+	background-size: 103%;
+	float: right;
+	position: relative;
+	top: -.46rem;
+	left: -.2rem;
+}
+.xx{
+	float: right;
+	font-size: .16rem;
+	position: relative;
+	top: -.35rem;
+	left: -.2rem;
+}
+.mui-table-view-cell:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: .01rem;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	transform: scaleY(.5);
+	background-color: #c8c7cc
+}
+.mui-bar-nav~.mui-content {
+    padding-top: 31px;
+}
+.mui-table-view:after {
+   position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.mui-table-view:before {
+   
+    height: 0;
+    content: '';
+
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

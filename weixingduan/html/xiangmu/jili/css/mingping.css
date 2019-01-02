@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.mui-bar .mui-icon {
+	font-size: 20px;
+	position: relative;
+	z-index: 20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 0.35rem;
+}
+.mui-bar{
+	background: #181818;
+	height: 0.5rem;
+}
+.mui-title{
+	color: #ffffff;
+	font-size: .2rem;
+}
+.mui-icon-left-nav{
+	color: #ffffff;
+	font-size: .16rem;
+}
+.mui-segmented-control{
+	border: .01rem solid #FFFFFF;
+}
+.mui-content{
+	background: #ffffff;
+}
+.tu{
+	width: 100%;
+	height: 1.7rem;
+	margin-bottom: .2rem;
+	background: #0062CC;
+}
+.tupian{
+	width: 100%;
+	height: 1.3rem;
+}
+.tupian img{
+	width: 100%;
+	height: 1.3rem;
+}
+.zi{
+	width: 100%;
+	height: .4rem;
+	background: #ececec;
+}
+.zi span{
+	text-align: center;
+	line-height: .4rem;
+}
+.zi span.zuo{
+	padding-left: .14rem;
+	font-size: 16px;
+	color: #2A2A2A;
+}
+.zi span.zhong{
+	/*padding-left: 1.1rem;*/
+	font-size: 18px;
+	color: #D0021B;
+}
+.you{
+	width: .25rem;
+	height: .25rem;
+	position: relative;
+	top: 0.05rem;
+}
+.right{
+	float: right;
+	margin-right: .19rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

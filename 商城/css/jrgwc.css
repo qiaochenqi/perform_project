@@ -1,0 +1,37 @@
+.jr_01{
+	width: 1340px;
+	height: 279px;
+	padding-left: 260px;
+}
+.jr_02{
+	width: 1115px;
+	height: 279px;
+	float: left;
+}
+.jr_02 img{
+	float: left;
+}
+.jr_03{
+	margin-left: 260px;
+	padding-top: 108px;
+}
+.jr_04{
+	color: #9fc158;
+	font-size: 24px;
+}
+.jr_02 input{
+	width: 124px;
+	height: 32px;
+	float: right;
+}
+.input_01{
+	color: #E82D34;
+	background: #FFFEFE;
+	border: 1px solid #e82d34;
+	margin-right: 10px;
+}
+.input_02{
+	color: #FFFEFE;
+	background: #E82D34;
+	border: 1px solid #e82d34;
+}

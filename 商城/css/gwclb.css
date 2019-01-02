@@ -1,0 +1,154 @@
+.gw_01{
+	width: 1400px;
+	height: 959px;
+	padding-left: 200px;
+}
+.gw_02{
+	width: 1200px;
+	height: 919px;
+}
+.p_011{
+	font-size: 18px;
+}
+.gw_03{
+	width: 1200px;
+	height: 735px;
+	margin-top: 8px;
+	border: 1px solid #EBEBEB;
+}
+table{
+	border: none;
+	border-collapse: collapse;
+}
+	
+.gw_032{
+	width: 1200px;
+	height: 35px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #EBEBEB;
+}
+.gw_0321{
+	padding-left: 15px;
+	width: 520px;
+}
+.gw_0322{
+	width: 208px;
+}
+.gw_0323{
+	width: 183px;
+}
+.gw_0324{
+	width: 214px;
+}
+.gw_0325{
+	width: 72px;
+}
+.gw_033{
+	height: 177px;
+	border-bottom: 1px solid #f3f3f3;
+	/*background: red;*/
+}
+.gw_0331 input{
+	position: relative;
+	top: 30px;
+	float: left;
+}
+.p_12{
+	color: #9f9e9e;
+	font-size: 12px;
+	padding-top: 20px;
+}
+.p_13{
+	margin-top: 13px;
+}
+.gw_0331 p{
+	margin-left: 15px;
+	float: left;
+}
+.gw_0331 img{
+	margin-left: 10px;
+	float: left;
+}
+.gw_0331{
+	padding-left: 15px;
+	width: 520px;
+}
+.gw_0332{
+	width: 208px;
+}
+.gw_0333{
+	width: 183px;
+}
+.gw_0334{
+	width: 214px;
+}
+.gw_0335{
+	width: 72px;
+}
+.jj_01{
+	width: 82px;
+	height: 16px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.jj_01 a{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+.gw_0335 a{
+	text-decoration: none;
+	color: #000000;
+}
+.jj_02{
+	width: 16px;
+	height: 16px;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+}
+.jj_03{
+	width: 48px;
+	height: 16px;
+	float: left;
+}
+.jj_04{
+	width: 16px;
+	height: 16px;
+	float: left;
+	border-left: 1px solid #CCCCCC;
+}
+.js_01{
+	height: 40px;
+	width: 1185px;
+	margin-top: 33px;
+}
+.js_02{
+	height: 40px;
+	width: 1039px;
+	float: left;
+	padding-left: 36px;
+}
+.input_06{
+	position: relative;
+	top: 3px;
+}
+.js_02 span{
+	font-size: 14px;
+}
+.span_08{
+	float: right;
+}
+.span_08 b{
+	color: red;
+}
+.p_012 span{
+	margin-top: 5px;
+	margin: auto 0px auto 928px;
+}
+.input_05{
+	float: right;
+	width: 101px;
+	height: 40px;
+	border: none;
+	background: red;
+	color: #FFFEFE;
+}

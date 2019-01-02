@@ -1,0 +1,63 @@
+body{
+	background: white;
+}
+.mui-content{
+	background: white !important;
+}
+.my_div1{
+	width: 100%;
+	height: .5rem;
+	background: white;
+	border-bottom: .01rem solid #EAEAEA;
+}
+.my_p1{
+	padding-left: .15rem;
+	padding-top: .15rem;
+}
+.user-input{
+	width: 100%;
+	height: .5rem;
+	background: white;
+	padding-top: .1rem;
+	border-bottom: .01rem solid #EAEAEA;
+}
+.code{
+	width: 71% !important;
+	height: .3rem !important;
+	border-right: white !important;
+	border: white !important;
+	color: #2A2A2A;
+	padding: 0 !important;
+	margin: 0 !important;
+	padding-left: .15rem !important;
+}
+.mui-input-row{
+	border-bottom: .01rem solid #EAEAEA !important;
+	height: .5rem;
+}
+.generate_code{
+	width: 27%;
+	height: .3rem;
+}
+.my_input1{
+	width: 100%;
+	height: .5rem !important;
+	border: none !important;
+	border-radius: 0 !important;
+}
+.my_div2{
+	width: 90%;
+	height: 2rem;
+	margin: 0 auto;
+	margin-top: .5rem;
+	background: white;
+}
+.mui-btn{
+	width: 100%;
+	margin: 0 auto;
+	height: .4rem;
+	color: #8B572A;
+	background: #FFDB25;
+	border-radius:.03rem ;
+	font-size: .16rem;
+}

@@ -1,0 +1,73 @@
+
+/*------------*/
+.my_div05{
+	text-align: center;
+	box-sizing: border-box;
+	padding-bottom: 30px;
+}
+.my_clear{
+	clear: both;
+}
+.my_div05 li:nth-child(1){
+	margin: 0;
+	height: 85px;
+	/*padding: 20px 10px 0px 10px;*/
+}
+.my_div05 li:nth-child(1) a:nth-child(1){
+	display: block;
+	float: left;
+	width: 33.3%;
+	padding: 31px 10px 10px 90px;
+	font-size: 20px;
+	font-weight:500;
+	background: url(../img/03.png)no-repeat left;
+	background-position: 16px -143px;
+	background-size: 40%;
+}
+.my_div05 li:nth-child(1) a:nth-child(2){
+	display: block;
+	float: left;
+	width: 33.3%;
+	padding: 10px;
+	font-size: 18px;
+}
+.my_div05 li:nth-child(1) a:nth-child(3){
+	display: block;
+	width: 33.3%;
+	float: right;
+	padding: 40px 10px 10px 10px;
+	color: #c6cfe0;
+	font-size: 14px;
+}
+
+.my_div05 li:nth-child(1) a:nth-child(2){
+	display: block;
+	width: 33.3%;
+}
+.my_div05 li:nth-child(2){
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #f6f6f6;
+}
+.my_div05 li:nth-child(n+3){
+	padding: 10px;
+	margin: 0;
+	height: 50px;
+}
+.my_div05 li:nth-child(n+3) a{
+	float: left;
+	display: block;
+	width: 33.3%;
+	padding: 10px;
+	color: #a2c7f4;
+}
+.my_div05 li:last-child{
+	padding-bottom: 30px;
+}
+
+.cl-artical-content{
+	background: #FFFFFF;
+}
+@media only screen and (max-width: ) {
+	
+}

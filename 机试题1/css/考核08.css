@@ -1,0 +1,46 @@
+.nav{
+	width: 100%;
+	height: 51px;
+	/*border: 1px solid red;*/
+}
+.nav .banxin{
+	width: 1000px;
+	height: 51px;
+	/*background: pink;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 10%;
+	height: 25px;
+	float: left;
+	padding-top: 10px;
+}
+.right{
+	float: right;
+	padding-top: 31px;
+}
+.div2{
+	width: 100%;
+	height: 29px;
+	background-color: #a71f11;
+}
+.div2 ul{
+	/*margin-left: 190px;*/
+	padding-left: 500px;
+	line-height: 29px;
+}
+.div2 li{
+	float: left;
+	color: white;
+	margin-right: 30px;
+}
+.div3{
+	width: 1000px;
+	height: 564px;
+	border: 1px solid gray;
+	/*padding: 0 0 0 400px;*/
+	margin: 0 auto;
+}
+.shendu1{
+	
+}

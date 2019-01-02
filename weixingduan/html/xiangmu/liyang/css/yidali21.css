@@ -1,0 +1,13 @@
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{
+	font-size: 15px;
+	margin-top:8px;
+	color: #333;
+}
+.mui-table-view.mui-grid-view {
+	padding: 0;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	
+
+	
+}

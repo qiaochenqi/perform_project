@@ -1,0 +1,75 @@
+
+.mui-content{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.mui-content ul li{
+	height: 60px;
+}
+.mui-content ul li p{
+	font-size: 16px;
+}
+body{
+	overflow: hidden;
+	background: white;
+}
+.aui-btn{
+	width: 50px;
+	height: 50px !important;
+	border-radius: 50% !important;
+	background: url(../images/gtouxiang_01.png)no-repeat;
+	background-size: 100%;
+	float: right;
+}
+.xx{
+	float: right;
+	font-size: 16px;
+	position: relative;
+	top: -20px;
+	left: -30px;
+	color: #000000 !important;
+	text-decoration: none !important;
+}
+.a1{
+	float: right;
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: px;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 42px;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 2px;
+}
+.mspan02{
+	float: right;
+	padding-top:19px;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 5px;
+	height: 5px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 3px;
+}
+.mui-title{
+	font-size: 20px;
+}

@@ -1,0 +1,286 @@
+.zhengti_01{
+	width: 100%;
+	height: 1655px;
+}
+.zhengti_02{
+	width: 1402px;
+	height: 1655px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.zhengti_03{
+	width: 1302px;
+	height: 1655px;
+	margin:  0 0 auto auto;
+	/*background: #16CFEE;*/
+}
+/*------------左-------------*/
+.zhengti_04{
+	width: 998px;
+	height: 1655px;
+	float: left;
+	/*background: #003399;*/
+}
+.zhengti_041{
+	height: 77px;
+	/*background: red;*/
+	padding-top: 53px;
+}
+.zhengti_041 p b{
+	font-size: 21px;
+}
+.zhengti_0411{
+	margin-top: 14px;
+}
+/*------------*/
+.zhengti_042{
+	height: 344px;
+	/*background: beige;*/
+}
+.zhengti_0421{
+	width: 558px;
+	height: 334px;
+	float: right;
+	/*background: red;*/
+}
+.zhengti_04211{
+	height: 72px;
+	
+}
+.zhengti_04211 ul li{
+	padding: 0 0 0 20px;
+	/*margin: 0 10px;*/
+	float: left;
+}
+.b_01{
+	font-size: 30px;
+	font-weight: normal;
+	color: #dec77d;
+}
+.b_02{
+	margin-left: 90px;
+}
+.zhengti_04211 p{
+	/*padding-left: 16px;*/
+}
+.li_01{
+	background: url(../images/大数据切图/jingling.png) no-repeat 0px -20px;
+}
+.li_02{
+	margin-left: 95px;
+	background: url(../images/大数据切图/jingling.png) no-repeat 0px 0px;
+}
+.li_03{
+	margin-left: 98px;
+	background: url(../images/大数据切图/jingling.png) no-repeat 0px -44px;
+}
+/*-----------*/
+.zhengti_04212{
+	height: 104px;
+	border-bottom: 1px solid #E8E6EA;
+	border-top: 1px solid #E8E6EA;
+	font-size: 14px;
+}
+.zhengti_04212 p{
+	margin-top: 13px;
+}
+/*--------------*/
+.zhengti_04213{
+	height: 154px;
+	font-size: 14px;
+	padding-top: 12px;
+}
+.p_02{
+	margin-top: 16px;
+}
+.p_02 input{
+	width: 120px;
+	height: 36px;
+	border-radius: 3px;
+	border: none;
+	color: #FFFFFF;
+}
+.input_01{
+	background: #11b8d2;
+}
+.input_02{
+	background: #95c952;
+	margin-left: 10px;
+}
+.input_03{
+	background: #c49b0b;
+	margin-left: 10px;
+}
+.p_03{
+	margin-top: 14px;
+	color: #959595;
+}
+.p_04{
+	display: block;
+	width: 168px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	color: #c49b0b;
+	background: #f9f5e6;
+	margin-top: 11px;
+}
+/*------------------------*/
+.zhengti_043{
+	height: 273px;
+	/*background: violet;*/
+}
+.zhengti_0431{
+	height: 43px;
+	padding-top: 37px;
+	border-bottom: 1px solid #d2d2d2;
+	/*background: darkblue;*/
+}
+.p_05{
+	margin-left: 13px;
+	font-size: 16px;
+}
+.p_05 img{
+	position: relative;
+	left: -13px;
+	top: 4px;
+}
+/*-----------------------*/
+.zhengti_0432{
+	height: 173px;
+	/*background: red;*/
+	padding-top: 22px;
+	padding-left: 39px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.p_06{
+	font-size: 16px;
+}
+.p_061{
+	font-size: 16px;
+	margin-top: 15px;
+}
+/*-----土地参数--------*/
+.p_062{
+	font-size: 16px;
+	margin-top: 47px;
+	position: relative;
+	/*right: 28px;
+	top: 3px;*/
+}
+.p_062 img{
+	position: absolute;
+	left: -39px;
+	top: 0px;
+}
+/*------------------------------*/
+.zhengti_044{
+	height: 182px;
+	padding-top: 22px;
+	padding-left: 39px;
+	/*background: darkgray;*/
+}
+.span_01{
+	margin-left: 167px;
+}
+.span_02{
+	margin-left: 152px;
+}
+.span_03{
+	margin-left: 215px;
+}
+.span_04{
+	margin-left: 203px;
+}
+.span_05{
+	margin-left: 223px;
+}
+.p_082{
+	font-size: 18px;
+	margin-top: 52px;
+	position: relative;
+}
+.p_082 img{
+	position: absolute;
+	left: -39px;
+	top: 2px;
+}
+.p_08{
+	margin-top: 16px;
+}
+.zhengti_044 span{
+	font-size: 14px;
+}
+/*-------------------------*/
+.zhengti_045{
+	height: 114px;
+	padding-top: 22px;
+	padding-left: 39px;
+	border-top: 1px solid #d2d2d2;
+	/*background: chartreuse;*/
+	border-bottom: 1px solid #d2d2d2;
+}
+.zhengti_045 p span{
+	font-size: 14px;
+}
+.span_06{
+	margin-left: 155px;
+}
+.p_083{
+	font-size: 16px;
+	margin-top: 66px;
+	position: relative;
+}
+.p_083 img{
+	position: absolute;
+	left: -39px;
+	top: 0px;
+}
+.zhengti_046{
+	height: 557px;
+	/*background: red;*/
+}
+/*-----------右-------------------------*/
+.zhengti_05{
+	width: 282px;
+	height: 1520px;
+	float: right;
+	padding-top: 135px;
+	/*background: #E8E6EA;*/
+}
+.p_19{
+	font-size: 14px;
+}
+.p_18{
+	padding-left: 15px;
+	font-size: 14px;
+}
+.zhengti_05 ul li img{
+	/*margin-top: 20px;*/
+}
+.span_09{
+	background: url(../images/dsjsy/大数据切图/09土流信息-出让土地详情页_13.png)no-repeat;
+	background-position: 0px 3px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #9c9c9c;
+}
+.span_091{
+	background: url(../images/dsjsy/大数据切图/09土流信息-出让土地详情页_10.png)no-repeat;
+	background-position: 0px 3px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #9c9c9c;
+	margin-left: 58px;
+}
+.p_181{
+	margin-top: 10px;
+	padding-left: 14px;
+}
+.zhengti_05 ul li{
+	width: 279px;
+	height: 288px;
+	display: block;
+	border: 1px solid #E8E6EA;
+	margin-top: 20px;
+}

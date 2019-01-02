@@ -1,0 +1,86 @@
+.zong_01{
+	height: 185px;
+}
+.footer_04{
+	width: 1400px;
+	height: 93px;
+	padding-left: 200px;
+	padding-top: 50px;
+}
+.footer_05{
+	width: 1200px;
+	height: 67px;
+	/*background: red;*/
+}
+.footer_05 img{
+	float: left;
+}
+.input_01{
+	width: 462px;
+	height: 31px;
+	background: url(../img/sousuo_03.png)no-repeat right;
+	border: 2px solid #9fc158;
+}
+.footer_06{
+	float: left;
+	margin-left: 198px;
+}
+.footer_06 p{
+	font-size: 14px;
+	color: #b5b5b5;
+	margin-top: 8px;
+}
+.footer_07{
+	width: 139px;
+	height: 34px;
+	font-size: 14px;
+	
+	text-align: center;
+	float: right;
+	border-radius: 20px;
+	border: 1px solid #dcdcdc;
+	background: url(../img/gouwuche01_03.png)no-repeat left;
+	background-position: 3px 3px;
+	position: relative;
+	
+}
+.span_01{
+	line-height: 34px;
+}
+.div_01{
+	position: absolute;
+	display: block;
+	width: 19px;
+	height: 11px;
+	background: #e41f33;
+	border-radius: 20px;
+	top: 2px;
+	right: 8px;
+	bottom: 12px;
+	color: #FFFEFE;
+	font-size: 9px;
+	line-height: 11px;
+}
+.footer_08{
+	width: 1400px;
+	height: 45px;
+	padding-left: 200px;
+	background: #9fc158;
+}
+.footer_09{
+	width: 1200px;
+	height: 33px;
+	padding-top: 12px;
+	/*background: #BFBFBF;*/
+}	
+.footer_09 ul li{
+	padding: 0 27px;
+	font-size: 18px;
+	float: left;
+}
+.footer_09 ul li a{
+	color: #FFFEFE;
+}
+.footer_09 ul li:nth-last-child(n+2){
+	border-right: 1px solid #FFFEFE;
+}

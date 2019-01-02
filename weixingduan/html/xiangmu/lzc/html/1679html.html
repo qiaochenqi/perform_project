@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    	<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="../css/mui.min.css">
+    	<link rel="stylesheet" href="../css/reset.css" />
+    	<link rel="stylesheet" href="../css/16four.css" />
+	    <script>
+				var html = document.getElementsByTagName('html')[0];
+				html.style.fontSize = html.clientWidth / 3.75 + "px";
+		</script>
+		<style>
+		html,body {
+				background-color: white;
+			}
+			.mui-bar~.mui-content .mui-fullscreen {
+				top: 44px;
+				height: auto;
+			}
+			.mui-pull-top-tips {
+				position: absolute;
+				top: -20px;
+				left: 50%;
+				margin-left: -25px;
+				width: 40px;
+				height: 40px;
+				border-radius: 100%;
+				z-index: 1;
+			}
+			.mui-bar~.mui-pull-top-tips {
+				top: 24px;
+			}
+			.mui-pull-top-wrapper {
+				width: 42px;
+				height: 42px;
+				display: block;
+				text-align: center;
+				background-color: #efeff4;
+				border: 1px solid #ddd;
+				border-radius: 25px;
+				background-clip: padding-box;
+				box-shadow: 0 4px 10px #bbb;
+				overflow: hidden;
+			}
+			.mui-pull-top-tips.mui-transitioning {
+				-webkit-transition-duration: 200ms;
+				transition-duration: 200ms;
+			}
+			.mui-pull-top-tips .mui-pull-loading {
+				/*-webkit-backface-visibility: hidden;
+				-webkit-transition-duration: 400ms;
+				transition-duration: 400ms;*/
+				
+				margin: 0;
+			}
+			.mui-pull-top-wrapper .mui-icon,
+			.mui-pull-top-wrapper .mui-spinner {
+				margin-top: 7px;
+			}
+			.mui-pull-top-wrapper .mui-icon.mui-reverse {
+				/*-webkit-transform: rotate(180deg) translateZ(0);*/
+			}
+			.mui-pull-bottom-tips {
+				text-align: center;
+				/*background-color: #efeff4;*/
+				font-size: 15px;
+				line-height: 40px;
+				color: #777;
+			}
+			.mui-pull-top-canvas {
+				overflow: hidden;
+				background-color: #fafafa;
+				border-radius: 40px;
+				box-shadow: 0 4px 10px #bbb;
+				width: 40px;
+				height: 40px;
+				margin: 0 auto;
+			}
+			.mui-pull-top-canvas canvas {
+				width: 40px;
+			}
+			.mui-slider-indicator.mui-segmented-control {
+				background-color: white;
+			}
+		</style>
+	</head>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <span class="mspan01">返回</span>
+		    <h1 class="mui-title">标题</h1>
+		    <span class="mspan02"><labe class="dian"></labe><labe class="dian"></labe><labe class="dian"></labe></span>
+		</header>
+		<div class="tou01"></div>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider mui-fullscreen">
+				<div id="sliderSegmentedControl" class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<div class="mui-scroll">
+						<a class="mui-control-item mui-active" href="#item1mobile">
+							商品
+						</a>
+						<a class="mui-control-item" href="#item2mobile">
+							详情
+						</a>
+						<a class="mui-control-item" href="#item3mobile">
+							参数
+						</a>
+						<a class="mui-control-item" href="#item4mobile">
+							评价
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<!--商品页-->
+								<img src="../images/xyc_02.png" alt="加载中..."class="img01" />
+								<div class="z01">
+									<a class="p01">薰衣草庄园特制手工皂薰衣草香皂 精油皂 <br />消炎色斑痘印 香氛皂</a>
+									<p class="p02">
+										<img src="../images/x_05.png" alt="加载中..." onclick="function()" class="img02" id="im1"/>
+										<a href="" class="a01" id="a1">收藏</a>
+									</p>
+								</div>
+								<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+									<script type="text/javascript">
+										window.onload=function(){
+											$("#im1").click(function(){
+												$("#a1").html("已收藏");
+											})
+										}
+									</script>
+								
+								<p class="p03">[促销]买一盒送俩盒，多买多送</p>
+								<p class="p04">126.00 <span class="span01">158.00</span> <span class="span02">已售：345</span></p>
+								<div class="d01">
+									<div class="mui-input-row mui-checkbox mui-left" id="o1">
+									  <label>有机认证</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o2">
+									  <label>无公害认证</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o3">
+									  <label>自产自销</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o4">
+									  <label>农庄发货</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									
+									<div class="mui-input-row mui-checkbox mui-left" id="o5">
+									  <label>农庄退货</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<ul class="mui-table-view">
+									        <li class="mui-table-view-cell">
+									            <a class="mui-navigate-right">
+									               <img src="../images/j_03.png" alt="加载中。。。" class="img03"/>
+									               	领取优惠卷
+									            </a>
+									        </li>
+									</ul>
+								</div>
+								<div class="d02">
+									<ul class="mui-table-view01" >
+									        <li class="mui-table-view-cell">
+									            <a class="mui-navigate-right" >
+									              	  已选    薰衣草庄园手工薰衣草香皂100g＊2
+									            </a>
+									        </li>
+									</ul>
+								</div>
+								<div class="d03">
+									配送区域    内蒙古  新疆  西藏  青海  宁夏不配送
+								</div>
+								<div class="d04">
+									        <a href="javascript:;">
+									            <img class="mui-media-object mui-pull-left01" src="../images/xt_01.png">
+									            <div class="mui-media-body">
+									                	<a href="" class="a06">意大利社员会庄园</a>
+									                <p class="mui-ellipsis">我已经变的很美好，你会来看我吗？请来看看吧。</p>
+									            </div>
+									        </a>
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_01_07.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;农庄详情
+									  </button> 
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_02.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;全部产品
+									  </button> 
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_03.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;私信庄主
+									  </button> 
+								</div>
+								<div class="d05"></div>
+								<div class="d07">查看商品详情</div>
+								<div class="d06"></div>
+								<a href="javascript:;" class="a02">
+								    <img class="mui-media-object mui-pull-left" src="../images/dt_01.png">
+								        <div class="mui-media-body01">
+								                	我们心目中理想的地方<br />
+													天要阔，山要高，水要深，酒要醇，菜色香<br />
+													人要美，谈笑相得，丝竹不绝……<br />
+													让我们在城市尽头找回失落已久的存在感。
+								        </div>
+								    <img class="mui-media-object mui-pull-left" src="../images/dt_02.png">
+								</a>
+								<nav class="mui-bar mui-bar-tab">
+								    <a class="a03" >
+								       <img src="../images/gwc_01.png" alt="" class="img05"/>
+								       	<div class="d08" id="AfenshuH1">0</div>
+								    </a>
+								    <a class="a04" id="btn1" onclick="function()">
+								     	加入购物车
+								    </a>
+								    <a class="a05" >
+								     	立即购买
+								    </a>
+								</nav>   
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+					<script type="text/javascript">
+						var  a=document.getElementById("AfenshuH1").textContent;
+						var  b=document.getElementById("btn1");
+						var  c=document.getElementById("AfenshuH1");
+						
+						b.onclick=function(){
+							a++
+							c.innerHTML = a;
+						}
+						
+			   		</script>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+							<!--详情页-->
+							<img src="../images/xyc_02.png" alt="加载中..."class="img01" />
+								<div class="z01">
+									<a class="p01">薰衣草庄园特制手工皂薰衣草香皂 精油皂 <br />消炎色斑痘印 香氛皂</a>
+									<p class="p02">
+										<img src="../images/x_05.png" alt="加载中..." onclick='change()' class="img02"/>
+										<a href="" class="a01" id="a1">收藏</a>
+									</p>
+								</div>
+								<p class="p03">[促销]买一盒送俩盒，多买多送</p>
+								<p class="p04">126.00 <span class="span01">158.00</span> <span class="span02">已售：345</span></p>
+								<div class="d01">
+									<div class="mui-input-row mui-checkbox mui-left" id="o1">
+									  <label>有机认证</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o2">
+									  <label>无公害认证</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o3">
+									  <label>自产自销</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<div class="mui-input-row mui-checkbox mui-left" id="o4">
+									  <label>农庄发货</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									
+									<div class="mui-input-row mui-checkbox mui-left" id="o5">
+									  <label>农庄退货</label>
+									  <input name="checkbox1" type="checkbox" checked >
+									</div>
+									<ul class="mui-table-view">
+									        <li class="mui-table-view-cell">
+									            <a class="mui-navigate-right">
+									               <img src="../images/j_03.png" alt="加载中。。。" class="img03"/>
+									               	领取优惠卷
+									            </a>
+									        </li>
+									</ul>
+								</div>
+								<div class="d02">
+									<ul class="mui-table-view01" >
+									        <li class="mui-table-view-cell">
+									            <a class="mui-navigate-right" >
+									              	  已选    薰衣草庄园手工薰衣草香皂100g＊2
+									            </a>
+									        </li>
+									</ul>
+								</div>
+								<div class="d03">
+									配送区域    内蒙古  新疆  西藏  青海  宁夏不配送
+								</div>
+								<div class="d04">
+									        <a href="javascript:;">
+									            <img class="mui-media-object mui-pull-left01" src="../images/xt_01.png">
+									            <div class="mui-media-body">
+									                	<a href="" class="a06">意大利社员会庄园</a>
+									                <p class="mui-ellipsis">我已经变的很美好，你会来看我吗？请来看看吧。</p>
+									            </div>
+									        </a>
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_01_07.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;农庄详情
+									  </button> 
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_02.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;全部产品
+									  </button> 
+									  <button type="button" class="mui-btn mui-btn-outlined">
+									  		<img src="../images/anniu_03.png" alt="加载中..." class="img04"/>
+									  		 &nbsp;私信庄主
+									  </button> 
+								</div>
+								<div class="d05"></div>
+								<div class="d07">查看商品详情</div>
+								<div class="d06"></div>
+								<a href="javascript:;" class="a02">
+								    <img class="mui-media-object mui-pull-left" src="../images/dt_01.png">
+								        <div class="mui-media-body01">
+								                	我们心目中理想的地方<br />
+													天要阔，山要高，水要深，酒要醇，菜色香<br />
+													人要美，谈笑相得，丝竹不绝……<br />
+													让我们在城市尽头找回失落已久的存在感。
+								        </div>
+								    <img class="mui-media-object mui-pull-left" src="../images/dt_02.png">
+								</a>
+								<nav class="mui-bar mui-bar-tab">
+								    <a class="a03" >
+								       <img src="../images/gwc_01.png" alt="" class="img05"/>
+								       <div class="d08"> 8</div>
+								    </a>
+								    <a class="a04" >
+								     	加入购物车
+								    </a>
+								    <a class="a05" >
+								     	立即购买
+								    </a>
+								</nav>
+							
+							
+							</div>
+						</div>
+					</div>
+					<div id="item3mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll kong">
+								<!--参数页-->
+								 <ul class="mui-table-view">
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							             	  类型：茶叶
+							            </a>
+							           
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							               	重量：200g
+							            </a>
+							            
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                                           生产日期：2016年8月8日
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                                          保质期：12个月
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                                          包装：精包装
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                                         售后：不承担售后
+							            </a>
+							        </li>
+							    </ul>
+								<nav class="mui-bar mui-bar-tab">
+								    <a class="a03" >
+								       <img src="../images/gwc_01.png" alt="" class="img05"/>
+								       	<div class="d08"> 8</div>
+								    </a>
+								    <a class="a04" >
+								     	加入购物车
+								    </a>
+								    <a class="a05" >
+								     	立即购买
+								    </a>
+								</nav>   
+							</div>
+						</div>
+					</div>
+					<div id="item4mobile" class="mui-slider-item mui-control-content">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll pingjia">
+								<!--评价页-->
+								<div class="top01">
+									<button type="button" class="mui-btn bu01" >总评价(3456)</button>
+									<button type="button" class="mui-btn bu02" >好评(3233)</button>
+								</div>
+								
+								<section class="aui-content">
+							                <div class="aui-card-list-user-avatar">
+							                    <img src="../images/xtou_01.png" class="aui-img-round">
+							                </div>
+							                <div class="aui-card-list-user-name">
+							                    <div class="aui-text-info">sunnym</div>
+							                    <div class="aui-font-size-14 text-light">7月14日</div>
+							                </div>
+							                <div class="aui-card-list-user-info text-light">
+							                	鞋子漂亮，舒服，便宜，青岛直发。尺码挺准的。卖说的
+												尺码偏小，其实是鞋子偏瘦。胖脚的还是大一点保险。
+							                </div>
+								            <div class="aui-card-list-content">
+								                 <img src="../images/mm005.png">
+								                 <img src="../images/zhongt_02.png">
+								            </div>
+								            <div class="kuang">
+								            	掌柜回复：谢谢支持，我们会尽快改进！谢谢支持，
+								            	<br />我们会尽快改进！
+								            </div>
+											<div class="aui-card-list-user-avatar">
+							                    <img src="../images/xtou_01.png" class="aui-img-round">
+							                </div>
+							                <div class="aui-card-list-user-name">
+							                    <div class="aui-text-info">sunnym</div>
+							                    <div class="aui-font-size-14 text-light">7月14日</div>
+							                </div>
+							                <div class="aui-card-list-user-info text-light">
+							                	鞋子漂亮，舒服，便宜，青岛直发。尺码挺准的。卖说的
+												尺码偏小，其实是鞋子偏瘦。胖脚的还是大一点保险。
+							                </div>
+							                <nav class="mui-bar mui-bar-tab pj">
+											    <a class="a03" >
+											       <img src="../images/gwc_01.png" alt="" class="img05"/>
+											       	<div class="d08"> 8</div>
+											    </a>
+											    <a class="a04" >
+											     	加入购物车
+											    </a>
+											    <a class="a05" >
+											     	立即购买
+											    </a>
+											</nav>   
+								</section>
+								
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>	
+		
+	</body>
+	
+</html>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/mui.pullToRefresh.js"></script>
+		<script src="../js/mui.pullToRefresh.material.js"></script>
+		<script>
+			mui.init();
+			(function($) {
+				//阻尼系数
+				var deceleration = mui.os.ios?0.003:0.0009;
+				$('.mui-scroll-wrapper').scroll({
+					bounce: false,
+					indicators: true, //是否显示滚动条
+					deceleration:deceleration
+				});
+				$.ready(function() {
+					//循环初始化所有下拉刷新，上拉加载。
+					$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
+						$(pullRefreshEl).pullToRefresh({
+							down: {
+								callback: function() {
+									var self = this;
+									setTimeout(function() {
+										var ul = self.element.querySelector('.mui-table-view');
+										ul.insertBefore(createFragment(ul, index, 10, true), ul.firstChild);
+										self.endPullDownToRefresh();
+									}, 1000);
+								}
+							},
+							up: {
+								callback: function() {
+									var self = this;
+									setTimeout(function() {
+										var ul = self.element.querySelector('.mui-table-view');
+										ul.appendChild(createFragment(ul, index, 5));
+										self.endPullUpToRefresh();
+									}, 1000);
+								}
+							}
+						});
+					});
+					var createFragment = function(ul, index, count, reverse) {
+						var length = ul.querySelectorAll('li').length;
+						var fragment = document.createDocumentFragment();
+						var li;
+						for (var i = 0; i < count; i++) {
+							li = document.createElement('li');
+							li.className = 'mui-table-view-cell';
+						/*	li.innerHTML = '第' + (index + 1) + '个选项卡子项-' + (length + (reverse ? (count - i) : (i + 1)));*/
+							/*fragment.appendChild(li)*/
+						}
+						return fragment;
+					};
+				});
+			})(mui);
+		</script>
+		
+		

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/shangping.css" />
+		<script type="text/javascript" charset="UTF-8">
+			mui.init();
+		</script>
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			html.style.fontSize = html.clientWidth / 3.75 + "px";
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left">返回</a>
+			<h1 class="mui-title">商品</h1>
+		</header>
+		<div class="mui-content">
+			<div class="nav" id="nav">
+				<ul>
+					<li>商品</li>
+					<li>详情</li>
+					<li class="cur">参数</li>
+					<li>评价</li>
+				</ul>
+			</div>
+			<div class="xian"></div>
+			<div class="wenzi">
+				<p>类型:&nbsp;&nbsp;茶叶</p>
+				<p>重量:&nbsp;&nbsp;200g</p>
+				<p>生产日期:&nbsp;&nbsp;2016年8月8日</p>
+				<p>保质期:&nbsp;&nbsp;12个月</p>
+				<p>包装:&nbsp;&nbsp;精包装</p>
+				<p>售后:&nbsp;&nbsp;不售后</p>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li class="gwc"><img src="../img/所有页面-商品详情－参数_03.png"/></li>
+				<li>加入购物车</li>
+				<li>立即购买</li>
+			</ul>
+		</div>
+	</body>
+	
+</html>
+<script type="text/javascript">
+	var a = document.getElementById("nav")
+	var dianji = a.getElementsByTagName("li")
+	for (i = 0; i < dianji.length; i++) {
+		dianji[i].index = i
+		dianji[i].onclick = function() {
+			for (i = 0; i < dianji.length; i++) {
+				dianji[i].className = ""
+			}
+			this.className = "cur"
+		}
+	}
+</script>

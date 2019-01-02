@@ -1,0 +1,28 @@
+{
+	"index.html": {
+		"refer": [
+			"html/02.sousuo.html",
+			"html/04.tj.html",
+			"html/08.huodong.html"
+		]
+	},
+	"html/02.sousuo.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/04.tj.html": {
+		"resources": [
+			"img/所有页面-首页－搜索－结果_0888.jpg",
+			"img/推荐2_07.jpg"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/08.huodong.html": {
+		"refer": [
+			"index.html"
+		]
+	}
+}

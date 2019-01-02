@@ -1,0 +1,112 @@
+.mui-card-header{
+	width: 100%;
+	height:40vw;
+	background:url(../img/ssjg_2.jpg) no-repeat;
+	background-size:100% ;
+	
+}
+.mui-card-header.mui-card-media{
+	padding-bottom: 0rem;
+    padding-top: 1.18rem;
+    padding-left: 1.56rem;
+}
+.mui-card-footer:before, .mui-card-header:after{
+	height: 0;
+}
+.mui-card-content-inner{
+	padding-top: .4rem;
+}
+.my_img1{
+	width: .5rem !important;
+	height: .5rem !important;
+	border-radius: 50%;
+}
+.my_p1{
+	text-align: center;
+	font-size: .16rem;
+	color: #333;
+}
+.my_p2{
+	width: 47%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: .1rem;
+}
+.my_img2{
+	float: left;
+	padding-left: .1rem;
+	width: 0.24rem;
+    height: 0.2rem;
+}
+.my_p2_1{
+	float: left;
+	padding-left: .05rem;
+	padding-top: .02rem;
+}
+
+.my_img3{
+	margin-left: .3rem;
+	float: left;
+	width: .2rem;
+    height: .2rem;
+    margin-right: .02rem;
+}
+.my_p2_2{
+	padding-top: .02rem;
+	padding-left: .1rem;
+}
+.my_p3{
+	text-align: center;
+	font-size: .14rem;
+	color: #8B8B8B;
+	padding-top: .1rem;
+}
+.my_li1{
+	margin-top:.2rem ;
+}
+.mui-div{
+	width: 100%;
+	height:40vw;
+	background:url(../img/ssjg_3.jpg) no-repeat;
+	background-size:100% ;
+	
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

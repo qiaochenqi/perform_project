@@ -1,0 +1,125 @@
+body{
+	background: #efeff4;
+}
+.mui-table-view{
+	overflow: hidden;
+}
+.mui-table-view-cell.mui-media{
+	width: 100%;
+	height: 2.6rem;
+}
+.mui-navigate-right:after, .mui-push-right:after {
+    content: '';
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    width: 50%;
+    float: left;
+}
+.mui-table-view-cell:after {
+    left: 0;
+}
+.mui-media-object.mui-pull-left{
+	display: block;
+	height: 2rem;
+}
+.mui-table-view .mui-media-object {
+    max-width: 1.5rem;
+}
+.mui-table-view{
+	box-sizing: border-box;
+	padding:0 0;
+	margin: 0 0;
+}
+.lip{
+    float: left;
+    width: 100%;
+    font-size: .14rem;
+    color: #2A2A2A;
+    box-sizing: border-box;
+    margin-top: .05rem;
+    padding-left: .05rem;
+}
+.mui-table-view .mui-media-object {
+    max-width: 1.9rem;
+}
+.mui-table-view-cell {
+    position: relative;
+    overflow: hidden;
+    padding: .06rem .01rem;
+    -webkit-touch-callout: none;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    width: 50%;
+    float: left;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: 0.15rem;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+.mui-table-view-cell>a:not(.mui-btn) { 
+    margin: -0.13rem 0rem;
+}
+p{
+	float: left;
+	font-size: .12rem;
+	color: #D0021B;
+	padding-left:.05rem ;
+	margin-top: .05rem;
+	box-sizing: border-box;
+}
+.dz{
+	
+	font-size: .16rem;
+	color: #D0021B;
+}
+.mui-table-view-cell:after {
+    height: 0;
+}
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

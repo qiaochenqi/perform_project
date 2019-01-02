@@ -1,0 +1,332 @@
+.my_div01{
+	width: 100%;
+	height: 0.4rem;
+	background: #FFDB25;
+}
+.my_ip01{
+	padding-top: 0.05rem;
+	padding-left: 0.14rem;
+	padding-right: 0.14rem;
+	box-sizing: border-box;
+	
+}
+.my_div01 input{
+    width: 100%;
+    height: 0.3rem;
+	background: #FFFFFF;
+	border-radius: 0.04rem;
+	font-size: 0.14rem;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 1.7rem;
+}
+.aui-grid{
+	height: 1.77rem;
+}
+.aui-grid-label span{
+	font-size: 0.12rem;
+	
+}
+.aui-row .aui-col-xs-3{
+	height: 0.93rem;
+}
+.aui-row{
+	height: 1.77rem;
+}
+/*----*/
+.jingling_01{
+		width: 100%;
+		height: 1.96rem;
+		padding-top: 0.2rem;
+		/*padding-left: 0.27rem;*/
+		box-sizing: border-box;
+		background: #FFFFFF;
+		overflow: hidden;
+	}
+	.mui-content ul.my_ul01{
+		
+		background: #FFFFFF;
+	}
+	.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+		border: none;
+	}
+	.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{
+		font-size: 0.12rem;
+		color: #676767;
+	}
+	.my_ul01  li:first-child a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 0rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01  li:nth-child(2) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 -0.5rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01  li:nth-child(3) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		/*margin-right: 0.2rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size:100%;
+		background-position:  0 -1rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01  li:nth-child(4) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 -1.51rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01 li:nth-child(5) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 -2.02rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01  li:nth-child(6) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position: 0 -2.52rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01 li:nth-child(7) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 -3.03rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01 li:nth-child(8) a span{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		/*margin-right: 0.2rem;*/
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		background: url(../images/jl1.png) no-repeat 0 0;
+		background-size: 100%;
+		background-position:  0 -3.55rem;
+		margin: 0 0.08rem;
+	}
+	.my_ul01 li{
+		width: 25%;
+		float:left ;
+		text-align: center;
+	}
+	.my_ul01 li p{
+		/*margin-top: 0.07rem;*/
+		margin-bottom: 0.2rem;
+		font-size: 0.12rem;
+		color: #666666;
+	}
+/*-----------------------*/
+.my_div02{
+	width: 100%;
+	height: 0.36rem;
+	background: #E9E9E9;
+	line-height: 0.36rem;
+	padding-left: 0.14rem;
+	box-sizing: border-box;
+}
+.my_div02{
+	color: #2A2A2A;
+	font-size: 0.16rem;
+}
+.mui-table-view li{
+	height: 1.15rem;
+}
+.mui-media a{
+	height: 1.15rem;
+}
+.mui-media a img{
+	display: block;
+	float: left;
+	height: 0.9rem;
+	width: 1.35rem;
+	margin-right: 0.1rem;
+}
+.my_p01{
+	margin-top: 0.1rem;
+}
+.my_p01 span{
+	float: left;
+	display: block;
+	text-align: center;
+	font-size: 0.12rem;
+	width: 0.34rem;
+	height: 0.18rem;
+	line-height: 0.18rem;
+	background: #E9E9E9;
+	border-radius: 0.03rem;
+}
+.my_p01 span:nth-child(2){
+	margin-left: 0.1rem;
+}
+.my_p01 span:nth-child(3){
+	margin-left: 0.1rem;
+}
+.mui-media a .my_div03{
+	margin: 0;
+	box-sizing: border-box;
+	padding-left: 0.1rem;
+	/*float: left;*/
+}
+.my_p02{
+	padding-right: 0.25rem;
+	box-sizing: border-box;
+	color: #000000;
+	font-size: 0.16rem;
+}
+.my_p03{
+	overflow: hidden;
+	font-size: 0.12rem;
+}
+.my_p02 span{
+	padding-left: 0.15rem;
+	font-size: 0.12rem;
+	display: block;
+	float: right;
+	/*margin-right: 0.25rem;*/
+	width: 0.66rem;
+	height: 0.15rem;
+	background: url(../images/sy001.jpg)no-repeat left;
+	background-position: 0 0.05rem;
+	background-size: 12%;
+}
+.mui-table-view li{
+	padding: 0rem;
+	padding-top: 0.13rem;
+	padding-left: 0.14rem;
+	box-sizing: border-box;
+}
+.my_span1{
+	display: block;
+	/*width: 0.25rem;*/
+	height: 0.25rem;
+	background: url(../images/0.1_08.png)no-repeat;
+	background-size: 100%;
+}
+.mui-icon .mui-icon-phone::before{
+	background: url(../images/0.1_08.png)no-repeat;
+}
+.mui-navigate-right:after, .mui-push-right:after {
+right: 15px;
+content: '';
+}
+/*-----------------*/
+.mui-icon img{
+	width: 0.23rem;
+	height: 0.23rem;
+}
+.mui-icon-home:before{
+	content: '';
+}
+.mui-icon-email:before{
+	content: '';
+}
+.mui-icon-contact:before{
+	content: '';
+}
+.mui-icon-gear:before{
+	content: '';
+}
+.mui-bar-tab~.mui-content{
+	padding-bottom: 0;
+}
+.my_a1{
+	color: #676767;
+	text-align: center;
+	float: left;
+	display: block;
+	width: 25%;
+	height: 50px;
+}
+.my_a1 img{
+	width: 0.23rem;
+	height: 0.23rem;
+}
+.my_a1 span:last-child{
+	display: block;
+}
+
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

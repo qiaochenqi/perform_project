@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+  
+
+
+
+</head>
+<body>
+  
+</body>
+<a href="" id="a1">123456</a>
+<script type="text/javascript">
+
+/* 读取cookie工具 */
+  window.readCookie = function (name) {
+    var nameEQ = name + '=';
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1, c.length);
+      }
+      if (c.indexOf(nameEQ) == 0) {
+        return c.substring(nameEQ.length, c.length);
+      }
+    }
+    return null;
+  };
+  window.createCookie = function (name, value, days, _Tdom) {
+    var Tdom = _Tdom || '/';
+    var date, expires;
+    if (days) {
+      date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = '; expires=' + date.toGMTString();
+    } else {
+      expires = '';
+    }
+    document.cookie = name + '=' + value + expires + '; path=' + Tdom;
+  };
+  try { document.domain = "jd.com" } catch (e) { }
+  /* 处理isdebug */
+  pageConfig.isdebug = (function () {
+    var searchStr = location.search;
+    var switchArr = [];
+    var len, i;
+    var switchObj = {};
+    searchStr.replace(/isdebug=((?:-\d+)*)/, function (m, g) {
+      switchArr = g.split('-');
+      len = switchArr.length;
+      for (i = 0; i < len; i++) {
+        if (switchArr[i] === '') continue;
+        switchObj[switchArr[i]] = true;
+      }
+    })
+    return switchObj;
+  })();
+  var actMarkStart = new Date('2018/10/22 00:00:00').getTime()
+  var actMarkEnd = new Date('2018/11/16 00:00:00').getTime()
+  var now = new Date().getTime()
+  if ((now > actMarkStart && now < actMarkEnd) ||
+    pageConfig.isdebug[10]) {
+    pageConfig.enableActMark = true;
+    pageConfig.enableEnjoy = true;
+    var fakeLogo = document.createElement('div');
+    fakeLogo.id = 'J_logo_extend';
+    document.body.appendChild(fakeLogo);
+  } else {
+    pageConfig.enableActMark = false;
+    pageConfig.enableEnjoy = false;
+  }
+
+  /* o2Control, 处理cookie中的开关 */
+  window.o2Control = (function () {
+    var _O2Control = function () {
+      var ctlStr;
+      this.cookieName = 'o2Control';
+      this.store = {};
+      ctlStr = readCookie(this.cookieName) || '';
+      this._init(ctlStr);
+    };
+    _O2Control.prototype._init = function (str) {
+
+      if (str.length == 0) return;
+
+      var arr = str.split('|'),
+        len = arr.length,
+        i;
+
+      for (i = 0; i < len; i++) {
+        var tmp = arr[i].split('=');
+        if (tmp[1] === undefined)
+          this.store[tmp[0]] = true;
+        else {
+          this.store[tmp[0]] = tmp[1];
+        }
+      }
+    };
+    _O2Control.prototype.set = function (k, v) {
+      var str = [],
+        i, tmp, res;
+
+      this.store[k] = v == undefined ? true : v;
+      for (i in this.store) {
+        tmp = '';
+        res = this.store[i];
+        if (res === false) continue;
+        tmp = i;
+        if (res !== true) tmp += '=' + res;
+        str.push(tmp);
+      }
+      createCookie(this.cookieName, str.join('|'), 365);
+    };
+    _O2Control.prototype.get = function (k) {
+      return this.store[k];
+    };
+    return new _O2Control();
+  })();
+
+</script>
+
+  
+
+</html>

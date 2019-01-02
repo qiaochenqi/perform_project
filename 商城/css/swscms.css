@@ -1,0 +1,153 @@
+.sws_01{
+	width: 1600px;
+	height: 2744px;
+	margin-top: -9px;
+}
+.sws_02{
+	width: 1600px;
+	height: 350px;
+}
+.sws_03{
+	width: 1400px;
+	height: 2240px;
+	padding-left: 200px;
+}
+.sws_04{
+	width: 1200px;
+	height: 2240px;
+}
+.sws_04 ul li{
+	width: 290px;
+	height: 427px;
+	float: left;
+	margin-top: 25px;
+	padding-top: 15px;
+	border: 1px solid #e9e9e9;
+}
+.li_01{
+	margin-left: 10px;
+}
+.sws_05{
+	width: 290px;
+	height: 385px;
+	/*background: violet;*/
+}
+.sws_06{
+	width: 290px;
+	height: 48px;
+	/*background: beige;*/
+}
+.sws_061{
+	width: 172px;
+	height: 36px;
+	text-align: center;
+	line-height: 30px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: red;
+	position: relative;
+	padding-top: 12px;
+	padding-left: 12px;
+}
+.sws_061 p{
+	color: #FFFEFE;
+	float: left;
+}
+.sws_061 b{
+	float: left;
+}
+.span_01{
+	float: left;
+	font-size: 14px;
+}
+.span_02{
+	float: left;
+	display: block;
+	width: 26;
+	height: 28px;
+	line-height: 28px;
+	background: #000000;
+	font-size: 18px;
+	
+}
+.sws_07{
+	width: 290px;
+	height: 242px;
+	padding-top: 8px;
+	/*background: #B5B5B5;*/
+}
+.sws_08{
+	width: 280px;
+	height: 97px;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: relative;
+	/*background: #FF0000;*/
+}
+/* ------------------- */
+.sws_081{
+	width: 84px;
+	height: 84px;
+	border-right: none;
+	border: 1px dashed red;
+	border-radius: 100%;
+	float: left;
+	/*background: red;*/
+}
+.sws_082{
+	width: 73px;
+	height: 63px;
+	text-align: center;
+	/*line-height: 73px;*/
+	border-radius: 100%;
+	background: red;
+	padding-top: 10px;
+	color: #FFFEFE;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+}
+.sws_083{
+	width: 188px;
+	height: 60px;
+	float: left;
+	padding-left: 7px;
+	position: absolute;
+	top: 35px;
+	right: 6px;
+	background: #FFFEFE;
+}
+.b_01{
+	font-size: 27.5px;
+}
+.sws_082 p{
+	font-size: 12.81px;
+}
+.p_02{
+	line-height: 20px;
+	font-size: 14px;
+	border-bottom: 1px dashed #e23b41;
+}
+.p_03{
+	margin-top: 5px;
+	font-size: 10px;
+}
+.p_04{
+	color: #c1c0c0;
+	margin-top: 5px;
+	text-decoration: line-through;
+	font-size: 10px;
+}
+.sws_084{
+	width: 40px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	background: #e23b41;
+	font-size: 12px;
+	position: absolute;
+	top: 45px;
+	right: 6px;
+	border-radius: 15px;
+	color: #FFFEFE;
+}

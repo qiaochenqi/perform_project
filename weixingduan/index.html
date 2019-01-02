@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>农庄</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<script src="js/mui.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/aui.css"/>-->
+		<!--<link rel="stylesheet" type="text/css" href="css/common.css" />-->
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		<link rel="stylesheet" href="css/swiper.css">
+		<script type="text/javascript">
+		mui.init()
+		</script>
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			html.style.fontSize = html.clientWidth / 3.75 + "px";
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <span class="mspan01">返回</span>
+		    <h1 class="mui-title">标题</h1>
+		    <span class="mspan02"><labe class="dian"></labe><labe class="dian"></labe><labe class="dian"></labe></span>
+		</header>
+		<div class="tou01"></div>
+		<nav class="mui-bar mui-bar-tab"  style="background: #FFFFFF;padding-top: 0.05rem;box-sizing: border-box;">
+			<a href="#" class="my_a1">
+				<span><img src="images/0.1_08.png"/></span>
+				<span>首页</span>
+			</a>
+			<a href="html/xiangmu/anzhao/html/08.huodong.html" class="my_a1">
+				<span><img src="images/0.1_11.png"/></span>
+				<span>活动</span>
+			</a>
+			<a href="html/xiangmu/liyang/nytc07.html" class="my_a1">
+				<span><img src="images/0.1_03.png"/></span>
+				<span>特产</span>
+			</a>
+			<a href="html/xiangmu/liyang/html/my09.html" class="my_a1">
+				<span><img src="images/0.1_05.png"/></span>
+				<span>我的</span>
+			</a>
+			<!--<a class="mui-tab-item mui-active" href="#tabbar">
+				<span class="mui-icon mui-icon-home"><img src="images/0.1_08.png"/></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="xiangmu/anzhao/html/08.huodong.html#anzhao_08">
+				<span class="mui-icon mui-icon-email"><img src="images/0.1_11.png"/></span>
+				<span class="mui-tab-label">活动</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-contact">
+				<span class="mui-icon mui-icon-contact"><img src="images/0.1_03.png"/></span>
+				<span class="mui-tab-label">特产</span>
+			</a>
+			<a class="mui-tab-item" href="#tabbar-with-map">
+				<span class="mui-icon mui-icon-gear"><img src="images/0.1_05.png"/></span>
+				<span class="mui-tab-label">我的</span>
+			</a>-->
+		</nav>
+		<!--搜索-->
+		<div class="mui-content my_div01" style="padding-top: 0.05rem;padding-left: 0.14rem;padding-right: 0.14rem;box-sizing: border-box;">
+			<div class="mui-content-padded" style="margin: 0px;">
+				<div class="mui-input-row mui-search">
+					<input type="search" class="mui-input-clear" placeholder="请输入农庄名称或特产名称">
+				</div>
+			</div>
+		</div>
+		<!--轮播-->
+		<div class="lb">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/cbd.jpg"/></div>
+					<div class="swiper-slide"><img src="images/muwu.jpg"/></div>
+					<div class="swiper-slide"><img src="images/shuijiao.jpg"/></div>
+				</div>
+				<!-- Add Pagination -->
+				<!--<div class="swiper-pagination"></div>-->
+			</div>
+		</div>
+		<script src="js/swiper.min.js"></script>
+
+  		<!-- Initialize Swiper -->
+	    <script>
+		    var swiper = new Swiper('.swiper-container', {
+		      spaceBetween: 30,
+		      pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		      },
+		      autoplay: {
+       			 delay: 2500,
+       			 disableOnInteraction: false,
+     			 },
+		    });
+	   </script>
+		<!--2*4-->
+		<div class="mui-content">
+		        <ul class="mui-table-view mui-grid-view mui-grid-9 my_ul01" style="margin: 0;">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="html/xiangmu/anzhao/html/04.tj.html">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">推荐</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="html/xiangmu/anzhao/html/08.huodong.html">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">户外</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="#">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">好物</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="html/xiangmu/liyang/nytc07.html">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">美食</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="#">
+		                    <span class="mui-icon"></span> 
+		                    <div class="mui-media-body">露营</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="#">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">采摘</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="#">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">美景</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3"><a href="html/xiangmu/anzhao/html/23.pindao.html">
+		                    <span class="mui-icon"></span>
+		                    <div class="mui-media-body">全部</div></a></li>
+		        </ul> 
+		</div>
+	   <!-------------------->
+	   <div class="my_div02">
+	   		<span>附近农庄</span>
+	   </div>
+		<!--lazyload-->
+		<div class="mui-content" >
+		<ul class="mui-table-view" id="list" style="margin: 0;">
+		    
+		</ul>
+	</div>
+	<div class="kongbai" style="height: 50px;"></div>
+<script type="text/javascript" src="js/mui.lazyload.js"></script>
+<script type="text/javascript" src="js/mui.lazyload.img.js"></script>
+<script type="text/javascript" src="js/lazyload.js"></script>
+	
+	</body>
+</html>
+

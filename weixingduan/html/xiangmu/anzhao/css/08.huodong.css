@@ -1,0 +1,135 @@
+.mui-table-view-cell{
+	border: none !important;
+}
+.my_img1{
+	width: 100%;
+}
+.mui-media-body1{
+	font-size: .14rem;
+	padding-top: .1rem;
+	color: #676767;
+	height: .2rem !important;
+	line-height: .01rem !important;
+}
+.mui-media-body{
+	font-size: .16rem !important;
+	color: #2A2A2A;
+	height: .2rem !important;
+	line-height: .2rem !important;
+}
+.my_div1{
+	width: 100%;
+	height: .5rem;
+	background: #E9E9E9;
+	line-height: .5rem;
+	padding-left: .2rem;
+}
+.my_li2{
+	width: 100%;
+    height: 1.2rem;
+
+}
+.my_img2{
+	width:37% !important;
+	max-width: 10000rem !important;
+	height: .9rem !important;
+	line-height: .9rem !important;
+}
+.my_div2_1{
+	font-size: .12rem !important;
+	height: 1rem !important;
+}
+.my_img3{
+	float: left;
+	width: .11rem;
+	height: .13rem;
+	margin-top: .14rem;
+	margin-right: .05rem;
+}
+.my_p2{
+	margin-top: .12rem;
+	float: left;
+}
+.my_img4{
+	float: left;
+	width: .13rem;
+	height: .13rem;
+	margin-top: .14rem;
+	margin-left: .15rem;
+	margin-right: .05rem;
+}
+.my_p3{
+	margin-top: .12rem;
+	float: left;
+}
+.my_img5{
+	float: left;
+	width: .1rem;
+	height: .14rem;
+	margin-top: .14rem;
+	margin-left: .15rem;
+	margin-right: .05rem;
+}
+.my_p4{
+	margin-top: .12rem;
+	float: left;
+	
+}
+.mui-navigate-right:after, .mui-push-right:after {
+    right: 15px;
+    color: white;
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

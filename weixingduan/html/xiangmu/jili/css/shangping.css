@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.mui-bar{
+	background: #181818;
+	height: 0.42rem;
+}
+.mui-title{
+	color: #ffffff;
+	font-size: .2rem;
+}
+body{
+	background: #ffffff;
+}
+.mui-content{
+	background: #ffffff;
+}
+.mui-icon-left-nav{
+	color: #ffffff;
+	font-size: .16rem;
+}
+.mui-segmented-control{
+	border: .01rem solid #FFFFFF;
+}
+.nav{
+	width: 100%;
+	height: .42rem;
+}
+.nav li{
+	width: 25%;
+	height: .42rem;
+	text-align: center;
+	line-height: .42rem;
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: #2A2A2A;
+}
+.xian{
+	width: 100%;
+	height: .02rem;
+	border: .01rem solid #D4D4D4;
+}
+.cur{
+	border-bottom: .02rem solid #FFDB25;
+}
+.wenzi{
+	width: 1.82rem;
+	height: 1.56rem;
+	margin-left: .4rem;
+	margin-top: .2rem;
+}
+.wenzi p{
+	font-size: 16px;
+	color: #2A2A2A;
+}
+.footer{
+	width: 100%;
+	height: .42rem;
+	position: fixed;
+	bottom: 0;
+}
+.footer li{
+	width: 30%;
+	height: .42rem;
+	float: left;
+	line-height: .42rem;
+	display: block;
+}
+.footer li:nth-child(1){
+	width: 30%;
+	height: .42rem;
+	padding-left: .43rem;
+}
+.gwc img{
+	width: .22rem;
+	height: .20rem;
+}
+.footer li:nth-child(2){
+	width: 35%;
+	height: .42rem;
+	font-size: 16px;
+	color: #8B572A;
+	padding-left: .3rem;
+	background: #FFDB25;
+}
+.footer li:nth-child(3){
+	width: 35%;
+	height: .42rem;
+	font-size: 16px;
+	padding-left: .35rem;
+	color: #FFFFFF;
+	background: #D0021B;
+}

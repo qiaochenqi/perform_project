@@ -1,0 +1,196 @@
+.tou_01{
+	width: 100%;
+	height: 0.5rem;
+	position: fixed;
+	top: 0;
+}
+.bai{
+	width: 100%;
+	height: 0.9rem;
+}
+.tou_01 img{
+	width: 100%;
+	height: 0.5rem;
+}
+nav{
+	width: 100%;height: 0.4rem;background: #ccc;
+	overflow: hidden;
+	overflow-x: auto;
+	text-align: center;
+	line-height: 0.38rem;
+	position: fixed;
+	top: 0.5rem;
+	}
+.nav_01 nav ul{
+	width: 6.6rem;
+}
+.nav_01 nav ul li{
+	width: 0.55rem;
+	float: left;
+	font-size: 0.14rem;
+	color: #666666;
+}
+.cur{
+	color: #f65656;
+	border-bottom: 3px solid #f65656;
+}
+.bord01{
+	width: 100%;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+}
+/*----------------------------------------*/
+.my_div1{
+	width: 100%;
+	height: 1.23rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #CCCCCC;
+}
+.my_div1 p{
+	font-size: 0.14rem;
+}
+.my_div1 p:nth-child(1){
+	
+}
+.my_div1 p:nth-child(2){
+	margin-top: 0.1rem;
+}
+.my_div1 p:nth-child(3){
+	margin-top: 0.35rem;
+}
+.my_div1 p:nth-child(3) span{
+	font-size: 0.12rem;
+	color: #999999;
+	/*padding-top: 0.1rem;*/
+}
+.my_div1 p:nth-child(3) img{
+	height: 0.18rem;
+}
+.my_sp01{
+	margin-left: 0.1rem;
+}
+.my_sp02{
+	margin-left: 0.1rem;
+}
+/*----------------------------------------*/
+.my_div2{
+	width: 100%;
+	height: 1.5rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #CCCCCC;
+}
+.my_div2 p{
+	font-size: 0.14rem;
+}
+.my_p01{
+	height: 0.7rem;
+}
+.my_p01 img{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.my_p01 img:nth-child(2){
+	margin-left: 0.1rem;
+}
+.my_p01 img:nth-child(3){
+	margin-left: 0.1rem;
+}
+.my_div2 p:nth-child(2){
+	margin-top: 0.1rem;
+}
+.my_div2 p:nth-child(3){
+	margin-top: 0.1rem;
+}
+.my_div2 p:nth-child(3) span{
+	font-size: 0.12rem;
+	color: #999999;
+	/*padding-top: 0.1rem;*/
+}
+.my_p02 img{
+	clear: both;
+	height: 0.18rem;
+}
+.my_sp01{
+	margin-left: 0.1rem;
+}
+.my_sp02{
+	margin-left: 0.1rem;
+}
+/*---------------------------------------------*/
+.my_div3{
+	width: 100%;
+	height: 1.2rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+.my_div3 p{
+	font-size: 0.14rem;
+}
+.my_p01{
+	height: 0.7rem;
+}
+.my_p01 img{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.my_p01 img:nth-child(2){
+	margin-left: 0.1rem;
+}
+.my_p01 img:nth-child(3){
+	margin-left: 0.1rem;
+}
+.my_div3 p:nth-child(2){
+	margin-top: 0.1rem;
+}
+.my_div3 p:nth-child(3){
+	margin-top: 0.3rem;
+}
+.my_div3 p:nth-child(3) span{
+	font-size: 0.12rem;
+	color: #999999;
+	/*padding-top: 0.1rem;*/
+}
+.my_p03{
+	margin-top: 0.2rem;
+}
+.my_p03 img{
+	clear: both;
+	height: 0.18rem;
+}
+.my_sp01{
+	margin-left: 0.1rem;
+}
+
+.zuo{
+	float: left;
+}
+.you{
+	overflow: hidden;
+	padding-left: 0.1rem;
+	height: 0.9rem;
+	float: left;
+}
+.you img{
+	width: 1rem;
+	height: 0.9rem;
+}
+/*------*/
+.my_div4{
+	width: 100%;
+	height: 0.4rem;
+	padding-top: 0.1rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-size: 0.12rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.2rem;
+	border-bottom: 1px solid #CCCCCC;
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		  <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<link rel="stylesheet" href="../css/15html.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/aui.css" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+	   
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background: #181818;">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <span class="mspan01">返回</span>
+		    <h1 class="mui-title">标题</h1>
+		    <span class="mspan02"><labe class="dian"></labe><labe class="dian"></labe><labe class="dian"></labe></span>
+		</header>
+		<div class="tou01"></div>
+		
+		<div class="mui-content">
+	     <ul class="aui-list aui-list-in aui-margin-b-15">
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner aui-list-item-arrow">
+                    <div class="aui-list-item-title">头像</div>
+                    <section class="aui-content-padded">
+					    <div class="aui-btn" tapmode onclick="openActionsheet()"></div>
+					</section>
+                </div>
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner aui-list-item-arrow">
+                    <div class="aui-list-item-title">昵称</div>
+                    <div class="aui-list-item-title">香香的幸福生活</div>
+                </div>
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner aui-list-item-arrow">
+            	<a href="../../liyang/html/address.html" style="text-decoration: initial;">
+                    <div class="aui-list-item-title">收货地址</div>
+                </a>
+                </div>
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner aui-list-item-arrow">
+                    <div class="aui-list-item-title">签名</div>
+                </div>
+            </li>
+        </ul>
+	</div>
+		
+		
+		
+		
+	</body>
+
+</html>
+<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	<script type="text/javascript" src="../script/api.js" ></script>
+	<script type="text/javascript" src="../script/aui-actionsheet.js" ></script>
+	<script type="text/javascript">
+	    apiready = function(){
+	        api.parseTapmode();
+	    }
+	    var actionsheet = new auiActionsheet();
+	    function openActionsheet(){
+	        actionsheet.init({
+	            frameBounces:true,//当前页面是否弹动，（主要针对安卓端）
+	            title:"",
+	            cancelTitle:'取消',
+	            destructiveTitle:'',
+	            buttons:['拍照','从图库选择']
+	        },function(ret){
+	            if(ret){
+	                document.getElementById("button-index").textContent = ret.buttonIndex;
+	                document.getElementById("button-title").textContent = ret.buttonTitle;
+	            }
+	        })
+	    }
+	</script>

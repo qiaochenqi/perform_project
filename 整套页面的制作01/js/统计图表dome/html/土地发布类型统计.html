@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>某省各类型土地流转总量统计</title>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../theme/dark.js"></script>
+	<script src="../theme/infographic.js"></script>
+	<script src="../theme/macarons.js"></script>
+	<script src="../theme/roma.js"></script>
+	<script src="../theme/shine.js"></script>
+	<script src="../theme/vintage.js"></script>
+</head>
+<body>
+	<div id="main" style="width:1000px;height: 500px;"></div>
+	<script type="text/javascript">
+		// 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'),'macarons');
+        
+        // 指定图表的配置项和数据
+		var option = {
+			backgroundColor: '#fff',
+		    title : {
+		        text: '某省各类型土地流转总量统计',
+		        textStyle: {
+		        	color: '#333',
+					fontStyle: 'normal',
+					fontWeight: '500',
+					fontFamily: '微软雅黑',
+					fontSize: '18'
+		        },
+		        x:'center'
+		    },
+		    tooltip : {
+		        trigger: 'item',
+		        formatter: "{a} <br/>{b} : {c} ({d}%)"
+		    },
+		    legend: {
+		        x : 'center',
+		        y : 'bottom',
+		        data:['耕地','草地','林地','水域','园地']
+		    },
+		    toolbox: {
+		        show : true,
+		        feature : {
+		            mark : {show: true},
+		            dataView : {show: true, readOnly: false},
+		            magicType : {
+		                show: true,
+		                type: ['pie', 'funnel']
+		            },
+		            restore : {show: true},
+		            saveAsImage : {show: true}
+		        }
+		    },
+		    calculable : true,
+		    series : [
+		        {
+		            name:'已流转总量',
+		            type:'pie',
+		            radius : [30, 110],
+		            center : ['25%', '50%'],
+		            roseType : 'area',
+		            data:[
+		                {value:5028, name:'耕地'},
+		                {value:3230, name:'草地'},
+		                {value:1215, name:'林地'},
+		                {value:5098, name:'水域'},
+		                {value:2030, name:'园地'}
+		            ]
+		        },
+		        {
+		            name:'待流转总量',
+		            type:'pie',
+		            radius : [30, 110],
+		            center : ['75%', '50%'],
+		            roseType : 'area',
+		            data:[
+		                {value:9028, name:'耕地'},
+		                {value:4230, name:'草地'},
+		                {value:5215, name:'林地'},
+		                {value:3098, name:'水域'},
+		                {value:2030, name:'园地'}
+		            ]
+		        }
+		    ]
+		};
+        // 使用指定的配置项和数据显示图表。
+        myChart.setOption(option);
+	</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.food_01{
+	width: 1000px;
+	height: 80px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	position: relative;
+}
+.food_01 img{
+	padding: 25px 0 0 32px;
+}
+.food_01 .span_2{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.food_01 .span_3{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}

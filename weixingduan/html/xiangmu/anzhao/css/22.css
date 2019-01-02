@@ -1,0 +1,62 @@
+.mui-content{
+	padding-top: .1rem;
+}
+.mui-input-row{
+	width: 80%;
+	margin: 0 auto;
+}
+.mui-search input[type=search]{
+	background: white;
+}
+.mui-media-object{
+	max-width: 2rem !important;
+	line-height: 1.0rem !important;
+	height: 1.0rem !important;
+	width: 1.4rem;
+}
+.my_p1{
+	font-size: .14rem;
+	color: #2A2A2A;
+}
+.my_div2{
+	width: 100%;
+	overflow: hidden;
+	margin-top:.2rem ;
+}
+.my_img1{
+	width: .16rem;
+	height: .17rem;
+	float: left;
+	
+}
+.my_p2{
+	font-size: .12rem;
+	float: left;
+	color: #676767;
+	padding-right:.4rem ;
+	padding-left:.05rem ;
+}
+.my_img2{
+	width: .11rem;
+	height: .16rem;
+	float: left;
+	
+}
+.my_p3{
+	font-size: .12rem;
+	float: left;
+	color: #676767;
+	padding-left: .05rem;
+}
+.my_div5{
+	width: 100%;
+	height: .2rem;
+	margin-top: .2rem;
+}
+.my_span1{
+	color: #676767;
+	font-size: .14rem;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	content: '';
+}

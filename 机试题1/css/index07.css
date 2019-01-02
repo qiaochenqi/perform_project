@@ -1,0 +1,117 @@
+.main{
+	width: 1002px;
+	height: 1000px;
+	
+	margin: 0 auto;
+}
+.nav{
+	width: 1001px;
+	height: 170px;
+	
+}
+.center{
+	width: 1000px;
+	height: 800px;
+	
+	border: 1px darkgray solid;
+}
+.left{
+	width: 235px;
+	height: 800px;
+
+	float: left;
+}
+.left ul li input{
+	width: 170px;
+	height: 27px;
+	border: 1px solid darkgray;
+	font-size: 11px;
+	text-align: center;
+	color: #8f8f8f;
+}
+.left ul li input:hover{
+	background: red;
+}
+.left ul{
+	padding-left: 32px;
+	padding-top: 17px;
+}
+.right{
+	width: 765px;
+	height: 800px;
+
+	float: left;
+}
+.top{
+	width: 765px;
+	height: 59px;
+	border-bottom: 1px #666666 solid;
+
+}
+.top img{
+	position: relative;
+    top: 38px;
+    left: 19px;
+    float: left;
+}
+.top span{
+	font-size: 16px;
+}
+.bottom{
+	width: 765px;
+	height: 172px;
+	
+}
+.bottom ul li{
+	float: left;
+	padding-left: 22px;
+	padding-top: 23px;
+	
+}
+.height_658{
+	width: 658px;
+	height: 420px;
+
+	border-bottom: 2px solid #6ca3c9;
+    /*margin-left: 50px;*/
+}
+.nav_1{
+	width: 658px;
+	height: 26px;
+	background: #afb2b4;
+	border-radius: 5px;
+}
+.nav_1 ul{
+	padding-left: 25px;
+	border-bottom: 1px solid darkgray;
+}
+.nav_1 ul li{
+	float: left;
+	line-height: 26px;
+	font-size: 14px;
+	color: #e9e5e1;
+	
+}
+.ul_my{
+	margin-top: 15px;
+	padding-left: 25px;
+}
+.ul_my li{
+	float: left;
+	font-size: 12px;
+	border-bottom: 1px solid darkgray;
+}
+.uu li{
+	float: left;
+	
+}
+.uu{
+	margin-left: 233px;
+	margin-top: 23px;
+}
+.uu li input{
+	text-align: center;
+	color: #337ab7;
+	
+	
+}

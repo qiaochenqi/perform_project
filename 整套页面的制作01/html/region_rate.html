@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:600px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="build/dist/echarts-all.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts图表
+        var myChart = echarts.init(document.getElementById('main'));         
+var data = [
+    [[28,450,2,'Australia',1990],
+    [31,27.4,27662440,'Canada',1990],
+    [16,138,1154605773,'China',1990],
+    [13,1134.7,10582082,'Cuba',1990],
+    [28,115,4986705,'Finland',1990],
+    [29,1137.1,56943299,'France',1990],
+    [31,735.4,78958237,'Germany',1990],
+    [28,738.1,254830,'Iceland',1990],
+    [17,537.7,870601776,'India',1990],
+    [29,379.1,122249285,'Japan',1990],
+    [20,637.9,20194354,'North Korea',1990],
+    [12,732,42972254,'South Korea',1990],
+    [24,735.4,3397534,'New Zealand',1990],
+    [43,76.8,4240375,'Norway',1990],
+    [10,730.8,38195258,'Poland',1990],
+    [19,639.6,147568552,'Russia',1990],
+    [10,637.3,53994605,'Turkey',1990],
+    [26,735.7,57110117,'United Kingdom',1990],
+    [2,752.4,252847810,'United States',1990]],
+    [[40,831.8,23968973,'Australia',2015],
+    [32,831.7,35939927,'Canada',2015],
+    [13,736.9,1376048943,'China',2015],
+    [21,738.5,11389562,'Cuba',2015],
+    [38,830.8,5503457,'Finland',2015],
+    [37,831.9,64395345,'France',2015],
+    [23,831.1,80688545,'Germany',2015],
+    [33,832.8,329425,'Iceland',2015],
+    [22,636.8,1311050527,'India',2015],
+    [36,133.5,126573481,'Japan',2015],
+    [13,131.4,25155317,'North Korea',2015],
+    [34,130.7,50293439,'South Korea',2015],
+    [34,130.6,4528526,'New Zealand',2015],
+    [24,131.6,5210967,'Norway',2015],
+    [24,137.3,38611794,'Poland',2015],
+    [23,133.13,143456918,'Russia',2015],
+    [19,336.5,78665830,'Turkey',2015],
+    [38,331.4,64715810,'United Kingdom',2015],
+]
+];
+
+var  option = {
+    backgroundColor: new echarts.graphic.RadialGradient(0.3, 0.3, 0.8, [{
+        offset: 0,
+        color: '#f7f8fa'
+    }, {
+        offset: 1,
+        color: '#cdd0d5'
+    }]),
+    title: {
+        text: '1990 与 2016 某地区化肥使用量及亩产'
+    },
+    legend: {
+        right: 10,
+        data: ['1990', '2015']
+    },
+    xAxis: {
+    	name: '亩产/吨',
+        splitLine: {
+            lineStyle: {
+                type: 'dashed'
+            }
+        }
+    },
+    yAxis: {
+    	name: '化肥使用量/KG',
+        splitLine: {
+            lineStyle: {
+                type: 'dashed'
+            }
+        },
+        scale: true
+    },
+    series: [{
+        name: '1990',
+        data: data[0],
+        type: 'scatter',
+        symbolSize: function (data) {
+            return Math.sqrt(data[2]) / 5e2;
+        },
+        label: {
+            emphasis: {
+                show: true,
+                formatter: function (param) {
+                    return param.data[3];
+                },
+                position: 'top'
+            }
+        },
+        itemStyle: {
+            normal: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(120, 36, 50, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{
+                    offset: 0,
+                    color: 'rgb(251, 118, 123)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(204, 46, 72)'
+                }])
+            }
+        }
+    }, {
+        name: '2015',
+        data: data[1],
+        type: 'scatter',
+        symbolSize: function (data) {
+            return Math.sqrt(data[2]) / 5e2;
+        },
+        label: {
+            emphasis: {
+                show: true,
+                formatter: function (param) {
+                    return param.data[3];
+                },
+                position: 'top'
+            }
+        },
+        itemStyle: {
+            normal: {
+                shadowBlur: 10,
+                shadowColor: 'rgba(25, 100, 150, 0.5)',
+                shadowOffsetY: 5,
+                color: new echarts.graphic.RadialGradient(0.4, 0.3, 1, [{
+                    offset: 0,
+                    color: 'rgb(129, 227, 238)'
+                }, {
+                    offset: 1,
+                    color: 'rgb(25, 183, 207)'
+                }])
+            }
+        }
+    }]
+};
+
+ myChart.setOption(option);
+        // 为echarts对象加载数据 
+
+    </script>
+</body>

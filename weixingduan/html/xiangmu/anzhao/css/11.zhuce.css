@@ -1,0 +1,30 @@
+.mui-input-row{
+	border-bottom: .05rem solid #EAEAEA;
+	height: ;
+}
+.mui-input-row label{
+	width: 20%;
+	height: .7rem;
+	line-height: .7rem;
+	padding: 0;
+	text-align: center;
+}
+.mui-input-row label~input{
+	width: 80%;
+	height: .7rem;
+}
+.my_div1{
+	width: 90%;
+	height: 2rem;
+	margin: 0 auto;
+	margin-top: .5rem;
+}
+.mui-btn{
+	width: 100%;
+	margin: 0 auto;
+	height: .4rem;
+	color: #8B572A;
+	background: #FFDB25;
+	border-radius:.03rem ;
+	font-size: .16rem;
+}

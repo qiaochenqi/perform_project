@@ -1,0 +1,161 @@
+.top{
+	width: 100%;
+	height: 146px;
+	background: #FFDB25;
+}
+.tu{
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	background: darkcyan;
+	position: relative;
+
+   top: 31px;
+}
+.tu img{
+	width: 55px;
+	height: 55px;
+}
+.font_1{
+
+	height: 20px;
+
+	margin-top: 40px;
+	font-size: 16px;
+    color: #2A2A2A;
+    text-align: center;
+    line-height: 20px;
+	
+}
+.span_1{
+	width: 12px;
+	height: 12px;
+
+	margin-left: 10px;
+}
+.span_1 img{
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+ul{
+	width: 100%;
+	height: 328px;
+	
+}
+ul li{
+	width: 100%;
+	height: 20%;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+p{
+
+  font-size: 16px;
+  color: #2A2A2A;
+}
+.i1{
+	width: 24px;
+	height: 25px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+.i2{
+	width: 8px;
+	height: 13px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 18px;
+}
+.s2{
+	position: relative;
+	top: 22px;
+	left: 19px;
+}
+body{
+	background: white;
+}
+.mui-icon img{
+	width: 25px;
+	height: 24px;
+}
+a{
+	color: black;
+}
+.mui-icon img{
+	width: 23px;
+	height: 23px;
+}
+.mui-icon-home:before{
+	content: '';
+}
+.mui-icon-email:before{
+	content: '';
+}
+.mui-icon-contact:before{
+	content: '';
+}
+.mui-icon-gear:before{
+	content: '';
+}
+.mui-bar-tab~.mui-content{
+	padding-bottom: 0;
+}
+.my_a1{
+	color: #676767;
+	text-align: center;
+	float: left;
+	display: block;
+	width: 25%;
+	height: 50px;
+}
+.my_a1 img{
+	width: 23px;
+	height: 23px;
+}
+.my_a1 span:last-child{
+	display: block;
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height:44px;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 42px;
+	color: #FFFFFF;
+	float: left;
+	padding-top:2px;
+}
+.mspan02{
+	float: right;
+	padding-top: 19px;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 5px;
+	height: 5px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 5px;
+}
+.mui-title{
+	font-size: 20px;
+}

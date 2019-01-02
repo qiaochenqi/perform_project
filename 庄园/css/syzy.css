@@ -1,0 +1,755 @@
+html, body {
+      position: relative;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 0.14rem;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .lb{
+    	width: 100%;
+    	height: 1.37rem;
+    	padding-left: 0.14rem;
+    	padding-right: 0.12rem;
+    	background: #FF534B;
+    	box-sizing: border-box;
+    }
+     .lb .swiper-slide img{
+    	width: 100%;
+    	height: 100%;
+    }
+     .lb .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide{
+      text-align: center;
+      font-size: 0.18rem;
+      background: #fff;
+
+       /*Center slide text vertically*/ 
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+     .lb .swiper-pagination span{
+    	background: red;
+    }
+	.xian{
+		width: 100%;
+		height: 0.05rem;
+		background: #F2F2F1;
+	}
+	.jingling_01{
+		width: 100%;
+		height: 1.96rem;
+		padding-top: 0.2rem;
+		/*padding-left: 0.27rem;*/
+		box-sizing: border-box;
+		background: #FFFFFF;
+		overflow: hidden;
+	}
+	.my_ul01  li:first-child a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 -3.18rem;
+		margin: 0 0.27rem;
+	}
+	.my_ul01  li:nth-child(2) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 0.0rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01  li:nth-child(3) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		/*margin-right: 0.2rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size:75%;
+		background-position:  0 -3.7rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01  li:nth-child(4) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 -0.52rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01 li:nth-child(5) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 -1.05rem;
+		margin: 0 0.27rem;
+	}
+	.my_ul01  li:nth-child(6) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position: 0 -2.63rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01 li:nth-child(7) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		padding: 0 0.1rem;
+		/*margin-right: 0.2rem;*/
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 -1.58rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01 li:nth-child(8) a{
+		display: block;
+		width: 0.5rem;
+		height: 0.5rem;
+		/*margin-right: 0.2rem;*/
+		padding: 0 0.1rem;
+		/*margin: 0 0.1rem;*/
+		background: url(../img/1jl.png) no-repeat 0 0;
+		background-size: 75%;
+		background-position:  0 -2.11rem;
+		margin: 0 0.23rem;
+	}
+	.my_ul01 li{
+		width: 25%;
+		float:left ;
+		text-align: center;
+	}
+	.my_ul01 li p{
+		margin-top: 0.07rem;
+		margin-bottom: 0.2rem;
+		font-size: 0.12rem;
+		color: #666666;
+	}
+	.lbsx{
+		width: 100%;
+		height: 0.55rem;
+		background: #FFFFFF;
+	}
+	.lbsx_01{
+		width: 30%;
+		height: 0.55rem;
+		float: left;
+		padding-top: 0.19rem;
+		padding-left: 0.15rem;
+		box-sizing: border-box;
+	}
+	.lbsx_01 img{
+		width: 0.75rem;
+		height: .17rem;
+	}
+	.swiper-slides p:first-child{
+		padding-top: 0.07rem;
+		padding-left: 0.07rem;
+	}
+	.swiper-slides p:last-child{
+		padding-top: 0.05rem;
+		padding-left: 0.07rem;
+	}
+	.swiper-slides span:nth-child(1){
+		
+	}
+	.swiper-slides span:nth-child(2){
+		margin-left: 0.11rem;
+	}
+	.lbsx_02{
+		
+		float: left;
+		width: 70%;
+		height: 0.55rem;
+	}
+	.lbsx_02 span{
+		font-size: 0.14rem;
+	}
+	.swiper-containers{
+		height: 100%;
+		overflow: hidden;
+	}
+  	.div_03{
+  		margin-top: 0.3rem;
+  	}
+	.em{
+		display: block;
+	}
+	.my_sp01::before{
+		content: "";
+		display: block;
+		width: 0.04rem;
+		height: 0.04rem;
+		float: left;
+		position: relative;
+		top: 0.08rem;
+		left: -0.07rem;
+		border-radius: 100%;
+		background: #ACAAAA;
+	}
+	.my_div1{
+		width: 100%;
+		height: 1.79rem;
+		background: #FFFFFF;
+	}
+	.my_div11{
+		width: 1.4rem;
+		height: 100%;
+		background: #FFFFFF;
+		float: left;
+	}
+	.my_div11 img{
+		width: 1.4rem;
+		height: 0.93rem;
+	}
+	.my_div111{
+		width: 2.33rem;
+		height: 100%;
+		float: left;
+	}
+	.my_div12{
+		width: 2.33rem;
+		height: 49%;
+		border-bottom: 1px solid #F2F2F1;
+		border-left: 1px solid #F2F2F1;
+		/*background: beige;*/
+	}
+	.my_div13{
+		width: 2.33rem;
+		height: 50%;
+		border-left: 1px solid #F2F2F1;
+		/*background: blue;*/
+	}
+	.my_p01 span{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position-y:-0.29rem ;
+		width: .14rem;
+		height: .16rem;
+		display: block;
+		position: relative;
+		top: 0.18rem;
+		left: -0.16rem;
+	}
+	.my_p01{
+		/*padding-top: 0.19rem;*/
+		padding-left: 0.47rem;
+		font-size: .14rem;
+		color: #4A4A4A;
+		box-sizing: border-box;
+	}
+	.my_p02{
+		padding-left: 0.29rem;
+		font-size: 0.14rem;
+		color: #878787;
+		margin-bottom: 0.28rem;
+	}
+	.my_div12 .zuo{
+		width: 60%;
+		float: left;
+		padding-top: 0.23rem;
+		padding-left: 0.2rem;
+		box-sizing: border-box;
+		
+	}
+	.my_div12 .you img{
+		width: 0.66rem;
+		height: 0.66rem;
+		float: right;
+	}
+	.my_div12 .you{
+		padding-right: 0.17rem;
+		padding-top: 0.12rem;
+		box-sizing: border-box;
+		width: 40%;
+		float: right;
+	}
+	.my_div13 .zuo{
+		width: 60%;
+		float: left;
+		padding-top: 0.23rem;
+		padding-left: 0.2rem;
+		box-sizing: border-box;
+		
+	}
+	.my_div13 .you img{
+		width: 0.66rem;
+		height: 0.66rem;
+		float: right;
+	}
+	.my_div13 .you{
+		padding-right: 0.17rem;
+		padding-top: 0.12rem;
+		box-sizing: border-box;
+		width: 40%;
+		float: right;
+	}
+	.my_p03{
+		
+		color: #4A4A4A;
+		font-size: 0.14rem;
+	}
+	.my_p04{
+		color: #878787;
+		font-size: 0.12rem;
+	}
+	.my_p03 span{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 -0.15rem;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+	.my_sp02{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 -0.25rem;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+	.my_p031{
+		
+		color: #4A4A4A;
+		font-size: 0.14rem;
+	}
+	.my_p041{
+		color: #878787;
+		font-size: 0.12rem;
+	}
+	.my_p031 span{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 0;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+/*---------------------------------*/
+.my_div1{
+		width: 100%;
+		height: 1.79rem;
+		background: #FFFFFF;
+	}
+	.my_div50{
+		width: 1.4rem;
+		height: 100%;
+		background: #FFFFFF;
+		float: left;
+		box-sizing: border-box;
+		padding-top: 0.24rem;
+	}
+	.my_div50 img{
+		width: 1.4rem;
+		height: 0.93rem;
+	}
+	.my_div111{
+		width: 2.33rem;
+		height: 100%;
+		float: left;
+	}
+	.my_div53{
+		width: 2.33rem;
+		height: 49%;
+		border-bottom: 1px solid #F2F2F1;
+		border-left: 1px solid #F2F2F1;
+		/*background: beige;*/
+	}
+	.my_div55{
+		width: 2.33rem;
+		height: 50%;
+		border-left: 1px solid #F2F2F1;
+		/*background: blue;*/
+	}
+	.my_p51 span img{
+		/*background: url(../img/arrowred copy@2x.png)no-repeat center center;*/
+		width: 0.12rem;
+		height: 0.12rem;
+		background-size: 100%;
+		position: relative;
+		top: 0.05rem;
+		right: -0.05rem;
+	}
+	.my_p51{
+		/*padding-top: 0.19rem;*/
+		padding-left: 0.15rem;
+		font-size: .14rem;
+		color: #4A4A4A;
+		box-sizing: border-box;
+	}
+	.my_p511{
+		/*padding-top: 0.19rem;*/
+		/*padding-left: 0.15rem;*/
+		font-size: .14rem;
+		color: #4A4A4A;
+		box-sizing: border-box;
+	}
+	.my_p511 span img{
+		/*background: url(../img/arrowred copy@2x.png)no-repeat center center;*/
+		width: 0.12rem;
+		height: 0.12rem;
+		background-size: 100%;
+		position: relative;
+		top: 0.05rem;
+		right: -0.05rem;
+	}
+	.my_p52{
+		padding-left: 0.15rem;
+		font-size: 0.12rem;
+		color: #878787;
+		margin-bottom: 0.28rem;
+	}
+	.my_div53 .zuo{
+		width: 50%;
+		float: left;
+		padding-top: 0.06rem;
+		padding-left: 0.13rem;
+		box-sizing: border-box;
+		
+	}
+	.my_div53 .you img{
+		width: 0.66rem;
+		height: 0.66rem;
+		float: right;
+	}
+	.my_div53 .you{
+		padding-right: 0.17rem;
+		padding-top: 0.12rem;
+		box-sizing: border-box;
+		height: 100%;
+		width: 49%;
+		float: right;
+		border-left: 1px solid #F2F2F1;
+	}
+	.my_p03{
+		
+		color: #4A4A4A;
+		font-size: 0.14rem;
+	}
+	.my_p04{
+		color: #878787;
+		font-size: 0.12rem;
+	}
+	.my_p03 span{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 -0.15rem;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+	.my_sp02{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 -0.25rem;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+	.my_p031{
+		
+		color: #4A4A4A;
+		font-size: 0.14rem;
+	}
+	.my_p041{
+		color: #878787;
+		font-size: 0.12rem;
+	}
+	.my_p031 span{
+		background: url(../img/jingling2.png)no-repeat center center;
+		background-size: 100%;
+		background-position:0 0;
+		float: left;
+		display: block;
+		width: 0.16rem;
+		height: 0.16rem;
+	}
+	.ny_01{
+		width: 100%;
+		height: 0.45rem;
+	}
+	.my_div53 .zuo:last-child{
+		box-sizing: border-box;
+		height: 100%;
+		width: 49%;
+		float: right;
+		border-left: 1px solid #F2F2F1;
+	}
+	.zuo_1{
+		padding-top: 0.23rem;
+		padding-left: 0.16rem;
+		box-sizing: border-box;
+		width: 60%;
+		float: left;
+	}
+	.you_1{
+		padding-top: 0.11rem;
+		padding-right:0.22rem;
+		box-sizing: border-box;
+		width: 40%;
+		float: left;
+	}
+	.you_1 img{
+		width: 0.77rem;
+		height: 0.69rem;
+	}
+	.my_p0522{
+		/*padding-top: 0.19rem;*/
+		/*padding-left: 0.15rem;*/
+		font-size: .14rem;
+		color: #4A4A4A;
+		box-sizing: border-box;
+	}
+	.my_p0522 span img{
+		/*background: url(../img/arrowred copy@2x.png)no-repeat center center;*/
+		width: 0.12rem;
+		height: 0.12rem;
+		background-size: 100%;
+		position: relative;
+		top: 0.05rem;
+		right: -0.05rem;
+	}
+	.ny{
+		width: 100%;
+		height: 0.48rem;
+		color: #4A4A4A;
+		font-size: 0.16rem;
+		line-height: 0.48rem;
+		text-align: center;
+		background: #FFFFFF;
+	}
+	.xian_1{
+		width: 100%;
+		height: 0.03rem;
+		background: #F2F2F1;
+	}
+	/*-------------------------------------------------------*/
+	.food_01{
+		width: 100%;
+		height: 1.57rem;
+		background: #FFFFFF;
+	}
+	.food01{
+		float: left;
+		text-align: center;
+		width: 1.27rem;
+		height: 100%;
+		border-right: 2px solid #F2F2F1;
+	}
+	.food01 p:nth-child(1){
+		padding-left: 0.41rem;
+		padding-top: 0.35rem;
+	}
+	.food01 p:nth-child(2){
+		color: #4A4A4A;
+		font-size: 0.14rem;
+		margin-top: 0.09rem;
+	}
+	.food01 p:nth-child(3){
+		font-size: 0.12rem;
+		color: #9B9B9B;
+		margin-top: 0.04rem;
+	}
+	.food01 p:nth-child(1) span{
+		display: block;
+		background: url(../img/jingling3.png)no-repeat center center;
+		background-position: 0 -0.85rem;
+		width: 0.4rem;
+		height: 0.4rem;
+		background-size: 100%;
+	}
+	.food02{
+		float: left;
+		width: 1.53rem;
+		height: 100%;
+	}
+	.food021{
+		width: 100%;
+		height: 49%;
+		border-bottom:  2px solid #F2F2F1;
+	}
+	.zuo1{
+		float: left;
+		padding-top: 0.2rem;
+		padding-left: 0.15rem;
+		box-sizing: border-box;
+		width: 25%;
+		height: 100%;
+	}
+	.zuo1 span{
+		display: block;
+		background: url(../img/jingling3.png)no-repeat center center;
+		background-position: 0 0;
+		width: 0.4rem;
+		height: 0.4rem;
+		background-size: 100%;
+	}
+	.zuo2{
+		padding-left: 0.17rem;
+		padding-top: 0.19rem;
+		box-sizing: border-box;
+		float: left;
+		width: 75%;
+		height: 100%;
+	}
+	.zuo2 p:first-child{
+		font-size: 0.14rem;
+		color: #4A4A4A;
+	}
+	.zuo2 p:last-child{
+		font-size: 0.12rem;
+		color: #9B9B9B;
+	}
+	.food022{
+		padding-right: 0.12rem;
+		box-sizing: border-box;
+		width: 100%;
+		height: 50%;
+	}
+	.you1{
+		float: left;
+		/*padding-left: 0.17rem;*/
+		padding-top: 0.19rem;
+		padding-right: 0.05rem;
+		box-sizing: border-box;
+		width: 75%;
+		height: 100%;
+	}
+	.you2{
+		padding-top: 0.2rem;
+		padding-right: 0.2rem;
+		overflow: hidden;
+		box-sizing: border-box;
+		float: left;
+		width: 25%;
+		height: 100%;
+		
+	}
+	.you2 span{
+		display: block;
+		background: url(../img/jingling3.png)no-repeat center center;
+		background-position: 0 -1.05rem;
+		width: 0.34rem;
+		height: 0.34rem;
+		background-size: 100%;
+	}
+	.food03{
+		text-align: center;
+		float: left;
+		width: .9rem;
+		height: 100%;
+		border-left:  2px solid #F2F2F1;
+	}
+	.you1 p{
+		
+		float: right;
+	}
+	.you1 p{
+		font-size: 0.14rem;
+		color: #4A4A4A;
+	}
+	.you1 p:last-child{
+		font-size: 0.12rem;
+		color: #9B9B9B;
+	}
+	.food03 p:first-child{
+		padding-top: 0.32rem;
+		padding-left: 0.23rem;
+		box-sizing: border-box;
+	}
+	.food03 p:nth-child(1) span{
+		display: block;
+		background: url(../img/jingling3.png)no-repeat center center;
+		background-position: 0 -0.42rem;
+		width: 0.4rem;
+		height: 0.4rem;
+		background-size: 100%;
+	}
+	.food03 p:nth-child(2){
+		margin-top: 0.07rem;
+		font-size: 0.14rem;
+		color: #4A4A4A;
+	}
+	.food03 p:nth-child(3){
+		margin-top: 0.03rem;
+		font-size: 0.12rem;
+		color: #9B9B9B;
+	}
+/*---------------------------------*/
+	.di_1{
+		width: 100%;
+		height: 0.48rem;
+		background: #FFFFFF;
+	}
+	.di_1 ul li img{
+		
+		display: block;
+		width: .28rem;
+		height: .25rem;
+	}
+	.di_1 ul li p{
+		padding-left: 0.04rem;
+		box-sizing: border-box;
+		font-size: .1rem;
+		color: #868484;
+	}
+	.di_1 ul li{
+		padding-top: 0.11rem;
+		padding-left: 0.33rem;
+		box-sizing: border-box;
+		float: left;
+		width: 25%;
+		height: 0.48rem;
+	}
+	/*-------------*/
+	.cur{
+		background: #F2F2F1;
+	}

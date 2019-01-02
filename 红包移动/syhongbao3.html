@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/syhongbao3.css" />
+		<script>
+			var html = document.getElementsByTagName('html')[0];
+			html.style.fontSize = html.clientWidth / 3.75 + "px";
+		</script>
+	</head>
+
+	<body>
+		<div class="my_div01">
+			<div class="my_div02 cur">
+				<span>我抢的红包</span>
+			</div>
+			<div class="my_div03">
+				<span>我发的红包</span>
+			</div>
+		</div>
+		<ul>
+			<li class="my_li01 licur">
+				<div class="my_div04  licur">
+					<div class="my_div041">
+						<p>10月20日 20：23</p>
+						<p>李纯的红包</p>
+					</div>
+					<div class="my_div042">
+						<span>＋5元</span>
+					</div>
+				</div>
+
+				<div class="my_div04 my_div05">
+					<div class="my_div041">
+						<p>10月20日 20：23</p>
+						<p>李纯的红包</p>
+					</div>
+					<div class="my_div042">
+						<span>＋5元</span>
+					</div>
+				</div>
+			</li>
+			<li class="my_li01">
+				<div class="my_div04">
+					<div class="my_div041">
+						<p>10月20日 20：23</p>
+						<p>我发的红包</p>
+					</div>
+					<div class="my_div042">
+						<span>已领完</span>
+					</div>
+				</div>
+
+				<div class="my_div04 my_div05">
+					<div class="my_div041">
+						<p>10月20日 20：23</p>
+						<p>我发的红包</p>
+					</div>
+					<div class="my_div042">
+						<span>余2个</span>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript">
+			$(".my_div01 div").click(function(){
+				//alert($(this).index());
+				//.index()  获取索引值
+				//.parent()
+				//.siblings()
+				//.children()
+				//.addClass("cur")
+				//.removeClass("cur")
+				$(this).addClass("cur").siblings().removeClass("cur");
+				$(this).parent().siblings().children().eq($(this).index()).addClass("licur").siblings().removeClass("licur");
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,106 @@
+.mui-content{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+.top{
+	float: left;
+	width: 100%;
+	height: 1rem;
+	box-sizing: border-box;
+	padding-top: .2rem;
+	padding-left: 42%;
+}
+.top img{
+	width: .48rem;
+	height: .48rem;
+}
+.top p{
+	font-size: .16rem;
+	color: #2A2A2A;
+}
+.top2{
+	float: left;
+	width: 100%;
+	height: 1.1rem;
+	box-sizing: border-box;
+	padding: .05rem .15rem;
+}
+.top2 p{
+	font-size: .14rem;
+	color: #2A2A2A;
+}
+.top3{
+	float: left;
+	width: 100%;
+	height: 1.4rem;
+	box-sizing: border-box;
+	padding: .05rem .15rem;
+	border-bottom: .01rem solid #D4D4D4;
+}
+.top3 img{
+	float: left;
+	width: .9rem;
+	height: .9rem;
+	margin-right: .1rem;
+}
+.top4{
+	float: left;
+	width: 100%;
+	height: 2rem;
+	box-sizing: border-box;
+	padding: .05rem .15rem;
+	border-bottom: .01rem solid #D4D4D4;
+}
+.top4 img{
+	float: left;
+	width: .9rem;
+	height: .9rem;
+	margin-right: .1rem;
+	margin-bottom: .02rem;
+}
+.pz{
+	position: relative;
+	left: .08rem;
+}
+
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.44rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

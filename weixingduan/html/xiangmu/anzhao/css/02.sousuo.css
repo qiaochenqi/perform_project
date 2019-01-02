@@ -1,0 +1,82 @@
+
+.my_div3{
+	width: 100%;
+	background: #E9E9E9;
+	padding-top: .05rem;
+	padding-left: .2rem;
+	float: left;
+	
+}
+.my_div1{
+	width: 100%;
+	height: .4rem;
+}
+.mui-input-row{
+	width: 80%;
+	float: left;
+}
+.mui-input-row .mui-input-clear{
+	width: 100%;
+	padding-left: .3rem;
+	background: white;
+	text-align: center;
+	line-height: .3rem;
+	border:.01rem solid #9E9E9E ;
+	color: black;
+}
+.my_div2{
+	width: 20%;
+	float: right;
+	display: block;
+}
+.my_p1{
+	text-align: center;
+	padding-top: .05rem;
+	color: black;
+	font-size: .18rem;
+}
+.mui-scroll-wrapper{
+	list-style: none;
+	margin-top: .5rem;
+	float: left;
+	
+}
+/*------------头部------------------*/
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
+.tou01{
+	height: 0.7rem;
+}
+.mui-bar-nav{
+	background: #181818;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	color: #FFFFFF;
+}
+.mui-bar .mui-title{
+	color: #FFFFFF;
+}
+.mspan01{
+	line-height: 0.42rem;
+	color: #FFFFFF;
+	float: left;
+	padding-top: 0.02rem;
+}
+.mspan02{
+	float: right;
+	padding-top: 0.19rem;
+	box-sizing: border-box;
+}
+.dian{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.03rem;
+}
+.mui-title{
+	font-size: 20px;
+}

@@ -1,0 +1,291 @@
+
+.kaoshi3{
+	/*width: 1099px;*/
+	height: 500px;
+	background-color: white;
+	/*margin-left: 475px;*/
+	position: relative;top: -4px;
+	border: 1px solid gray;
+	border-top: 0px;
+}
+.input1{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: 33px;
+	position: relative;top: 40px;
+}
+.input1:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input2{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 67px;
+}
+.input2:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input3{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 94px;
+}
+.input3:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input4{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 121px;
+}
+.input4:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input5{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 148px;
+}
+.input5:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input6{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 227px;
+}
+.input6:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input7{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 254px;
+}
+.input7:hover{
+	background-color: #d92612;
+	color: white;
+}
+.input8{
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 11px;
+	margin-left: -174px;
+	position: relative;top: 281px;
+}
+.input8:hover{
+	background-color: #d92612;
+	color: white;
+}
+.kst{
+	margin-left: 32px;
+	position: relative;top: 40px;
+}
+.kst2{
+	/*margin-left: 5px;*/
+	position: relative;top: 40px;
+}
+.kst3{
+	color: #3fb7d2;
+	margin-left: 488px;
+	position: relative;top: 40px;
+}
+.kst3:hover{
+	color: red;
+}
+.kst4{
+	margin-left: 25px;
+	position: relative;top: 40px;
+}
+.kaoshi4{
+	width: 700px;
+	height: 1px;
+	background-color: black;
+	margin-top: 40px;
+	position: relative;left: 240px;
+}
+.input9{
+	width: 136px;
+	height: 27px;
+	background-color: #f2c10d;
+	margin-left: 295px;
+	position: relative;top: 35px;
+	border: 0px;
+	color: white;
+}
+.input10{
+	width: 136px;
+	height: 27px;
+	background-color: #92a728;
+	margin-left: 62px;
+	position: relative;top: 35px;
+	border: 0px;
+	color: white;
+}
+
+.input11{
+	width: 136px;
+	height: 27px;
+	background-color: #ed7759;
+	margin-left: 695px;
+	position: relative;top: 8px;
+	border: 0px;
+	color: white;
+}
+.kst5{
+	/*background-color: gray;*/
+	margin-left: 445px;
+	position: relative;top: -30px;
+	font-size: 38px;
+}
+.kst6{
+	margin-left: 645px;
+	position: relative;top: -80px;
+	font-size: 38px;
+}
+.input12{
+	margin-left: 280px;
+	position: relative;top: -65px;
+	
+	
+	
+}
+.input12 input{
+	color: lightgray;
+}
+.input13{
+	margin-left: 280px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input13 input{
+	color: lightgray;
+}
+.input14{
+	margin-left: 280px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input14 input{
+	color: lightgray;
+}
+.input15{
+	margin-left: 255px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input15 input{
+    color: lightgray;
+}
+.input16{
+	margin-left: 267px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input16 input{
+	color: lightgray;
+}
+.input17{
+	margin-left: 255px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input17 input{
+	color: lightgray;
+}
+.input18{
+	margin-left: 253px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input18 input{
+	color: lightgray;
+}
+.input19{
+	margin-left: 253px;
+	position: relative;top: -65px;
+	padding-top: 10px;
+}
+.input19 input{
+	color: lightgray;
+}
+.input20{
+	width: 84px;
+	height: 28px;
+	background-color: #cacaca;
+	margin-left: 352px;
+	border: 0px;
+	border-radius: 2px;
+	position: relative;top: -60px;
+	/*padding-top: 10px;*/
+}
+.input21{
+	width: 84px;
+	height: 28px;
+	background-color: #d92612;
+	margin-left: 40px;
+	border: 0px;
+	border-radius: 2px;
+	position: relative;top: -60px;
+	/*padding-top: 10px;*/
+}
+.kst7{
+	/*margin-left: -530px;*/
+	position: relative;top: 35px;
+}
+.kst8{
+	color: gray;
+	font-size: 11px;
+	margin-left: 100px;
+	/*position: relative;top: -15px;*/
+}
+.kst9{
+	color: gray;
+	font-size: 11px;
+	margin-left: 100px;
+	margin-top: -5px;
+	/*position: relative;top: -20px;*/
+}

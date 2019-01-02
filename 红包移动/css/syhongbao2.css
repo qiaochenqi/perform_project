@@ -1,0 +1,85 @@
+body{
+	background: #EDEDED;
+}
+ul{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.my_li li{
+	background: #FFFFFF;
+	margin: 0 auto;
+	width: 3.42rem;
+	height: 0.68rem;
+	padding-top: 0.22rem;
+	padding-left: 0.1rem;
+	border-radius: 0.06rem;
+	border: 1px solid #E4E4E4;
+}
+.my_li li div{
+	width: 3.35rem;
+	height: 0.46rem;
+}
+.my_li li div p{
+	font-size: 0.16rem;
+	color: #9B9B9B;
+	margin-top: 0.03rem;
+}
+.my_p01{
+	font-size: 0.12rem;
+	color: #9B9B9B;
+}
+.my_p02{
+	margin-top: 0.05rem;
+	font-size: 0.12rem;
+	color: #9B9B9B;
+}
+.my_div01{
+	margin-top: 0.2rem;
+	padding-left: 0.13rem;
+}
+.my_ul01{
+	margin-top: 0.1rem;
+}
+.my_ul01{
+	font-size: 0.16rem;
+	color: #9B9B9B;
+}
+.my_ul01 li{
+	width: 3.51rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: #FFFFFF;
+	margin-bottom: 0.1rem;
+	line-height: 0.5rem;
+	border: 1px solid #E4E4E4;
+	border-radius: 0.06rem;
+}
+.my_ul01 span:nth-child(1){
+	float: left;
+	padding-left: 0.09rem;
+}
+.sp_01{
+	float: right;
+	color: #417505;
+	padding-right: 0.06rem;
+}
+.my_ul01 img{
+	width: 0.13rem;
+	height: 0.08rem;
+	float: right;
+	position: relative;
+	top: 0.2rem;
+	margin-right: 0.06rem;
+}
+.my_div02{
+	width: 3.35rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	font-size: 0.16rem;
+	margin-top: 0.7rem;
+	color: #9B9B9B;
+	text-align: center;
+	line-height: 0.4rem;
+	border-radius: 0.07rem;
+	background: #DEDCDC;
+}

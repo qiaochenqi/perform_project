@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>全国各类型土地流转总量历年趋势</title>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../theme/dark.js"></script>
+	<script src="../theme/infographic.js"></script>
+	<script src="../theme/macarons.js"></script>
+	<script src="../theme/roma.js"></script>
+	<script src="../theme/shine.js"></script>
+	<script src="../theme/vintage.js"></script>
+</head>
+<body>
+	<div id="main" style="width: 1000px;height: 500px;"></div>
+	<script type="text/javascript">
+		// 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'),'macarons');
+        
+        // 指定图表的配置项和数据
+        var option = {
+    xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [120, 200, 150, 80, 70, 110, 130],
+        type: 'bar'
+    }]
+};
+        
+        // 使用指定的配置项和数据显示图表。
+        myChart.setOption(option);
+	</script>
+</body>
+</html>

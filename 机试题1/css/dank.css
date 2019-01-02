@@ -1,0 +1,62 @@
+.p_01 input{
+	padding-left: 46px;
+	background: url(../img/tk_03.png)no-repeat left;
+	width: 288px;
+	height: 51px;
+	font-size: 19.1px;
+	color: #acacac;
+	border: solid 1px #dbd9d9;
+}
+.p_02{
+		margin-top: 17px;
+}
+.p_02 input{
+	padding-left: 46px;
+	background: url(../img/tk_06.png)no-repeat left;
+	width: 288px;
+	height: 51px;
+	font-size: 19.1px;
+	color: #acacac;
+	border: solid 1px #dbd9d9;
+
+}
+.p_03 input{
+	width: 18px;
+	height: 18px;
+	position: relative;
+	top: 4px;
+	left: 0px;
+}
+.p_03 span{
+	font-size: 15.04px;
+	color: #666666;
+}
+.p_03{
+	margin-top: 18px;
+}
+.p_04{
+	margin-top: 40px;
+}
+.p_04 input{
+	width: 334px;
+	height: 51px;
+	background: red;
+	font-size: 20.09px;
+	color: #FFFFFF;
+	border: solid 1px #dbd9d9;
+}
+.p_05 span:first-child{
+	width: 105px;
+	font-size: 19.38px;
+	color: #666666;
+	border-right: 1px solid #333333;
+	margin-right: 15px;
+}
+.p_05 span a{
+	font-size: 19.38px;
+}
+.p_05{
+	float: right;
+	margin-top: 10px;
+	padding-right: 44px;
+}
