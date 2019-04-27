@@ -1,0 +1,76 @@
+/*默认*/
+.fl_left{float: left;}
+.fl_right{float: right;}
+.mr10p{margin-right: 10px;}
+.mr5p{margin-right: 5px;}
+.wid70{width: 70% !important;}
+.mr5{margin-right: 5% !important;}
+.dn{display: none}
+
+/*头部*/
+#topbar{padding: 15px 0px;text-transform: uppercase;background: #333333;}
+.nospace li{float: left;margin-right: 10px;color: white;list-style: none;position: relative;}
+.top_tk{ width: 100px; height: 100px;background: #333333;position: absolute;top: 30px;left:-15px;z-index: 999; line-height: 28px;padding:8px 22px;box-sizing: border-box;}
+.nospace li a{color: #a5a5a5;text-decoration: none;} 
+.nospace li a:hover{color: white;}
+.content_top{width: 63%;margin: 0 auto;padding-bottom: 15px;box-sizing: border-box;}
+.nospace li span{position: relative;top: 0;}
+.top_tk a:hover{background: orangered}
+
+/*导航*/
+.sm_nav{width: 100%;height: 30px;margin-top: 25px;padding: 0px 390px; box-sizing: border-box;}
+.nav01{width: 10%;height:30px;text-align: center;line-height: 30px;}
+.sm_nav img{padding: 6px;box-sizing: border-box; }
+.nav01 a{color: #a5a5a5; font-size: 18px;font-weight: bold;}
+.nav01 a:hover{color: goldenrod;}
+
+/*内容*/
+.content{width: 100%;overflow: hidden;padding: 0px 390px; box-sizing: border-box;margin-top: 5%;}
+.content_right{width: 23%;overflow: hidden; float: right;margin-bottom: 3%;position: relative;top: -50px;}
+.p01{font-family: 苹方简体;font-size: 18px;font-weight: bold;color: black;}
+.p02{font-family: 苹方简体;font-size: 14px;color: #a5a5a5;}
+.content_right a{text-decoration: none; }
+.bq_k{width: 100%;overflow: hidden;float: left;border: 3px dashed pink;padding: 10px;box-sizing: border-box;}
+h1{font-size: 24px !important;font-family: 苹方简体;font-weight: bold !important;}
+h2:hover{color: goldenrod !important;}
+.bq_k span a{color: black !important;text-decoration: none !important;margin-right: 14%;font-size: 16px}
+.bq_k span a:hover{color: orangered !important;}
+.content_top1{width: 100%;height: 10%;text-align: center;}
+.content_top1:hover{color: gold;}
+.content_z{width: 100%;height: 100%;}
+.content_z img{width: 100% !important;overflow: hidden;}
+
+
+/*
+移动端
+@media only screen and (min-width: 320px) and (max-width: 1400px){
+	.sm_nav{padding: 0 0px;box-sizing: border-box;}
+	.content{padding: 0 10px;box-sizing: border-box;}
+	.nav01{width: 15%;height: 30px;}
+	h2{font-size: 20px !important;font-weight: bold !important;}
+	h1{font-size: 18px !important;}
+	.content_right{margin: 0;}
+	.content_right img{height: 60px;}
+	.bq_k{height: 45px;padding: 1px;}
+	.p02{display: none;}
+	.p01{font-size: 10px;margin: 0;}
+	iframe{height: 165px !important;}
+	.nav01 a{font-size: 12px !important;}
+	.sm_nav img{padding: 0 !important;position: relative;top: 5px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1366px){
+	h1{margin-top: 28px !important;}
+	.content_right{margin: 8px;}
+	.bq_k{height: 90px;padding: 1px;}
+	.copy_z{display: none !important;}
+	iframe{height: 178px !important;}
+	.content_right img{height: 155px;width: 100%;}
+	.content img{margin: 2px !important;}
+	.disn{display: none;}
+	.em {position: relative !important;right: 10px !important;}
+	.hamburger__icon{position: relative;top: -25px;}
+	.wid70{width: 69% !important;}
+}
+@media only screen and (max-width:320px){
+    .disn{display: none !important;}
+}*/

@@ -1,0 +1,138 @@
+/*默认*/
+body{overflow-y:scroll;}
+.fl_left{float: left;}
+.fl_right{float: right;}
+.clbo{clear: both;}
+.mr0{margin: 0 !important;}
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mr18{margin-right: 18px;}
+.mr50{margin-right: 50px !important;}
+.mr5{margin-right: 5px;}
+.mt15{margin-top: 15px !important;}
+.mb15{margin-bottom: 15px !important;}
+.mb40{margin-bottom: 50px;}
+.mbb3{margin-bottom: 3% !important;}
+.mrb5{margin-right: 5%;}
+.mr-20{margin-left: 20px;}
+.mr-30{margin-left: 30px;}
+.pat10{padding-top: 10px;box-sizing: border-box;}
+.font18{font-size: 18px;}
+
+.bgf4{background: #f4f4f4;}
+.colorb7{color:#b71c24;}
+.colorw{color: white;}
+/*.color00{color: #003a84;}*/
+.color99{color:#999999}
+.colorbl{color: #333333;font-size: 14px;font-weight: bold;}
+.bg00{background: #003a84;width: 30%;text-align: center;}
+.wid12{width: 1200px;}
+.hei4{height: 400px;}
+.widb100{width: 100% !important;}
+
+.height60{height: 60px;}
+
+.db{display: block;}
+.dn{display: none;}
+
+/*头部*/
+#topbar{padding: 15px 0px;text-transform: uppercase;background: #333333;}
+.nospace li{float: left;margin-right: 18px;color: white;list-style: none;position: relative;}
+.top_tk{ width: 80px; height: 100px;background: #333333;position: absolute;top: 30px;left:-15px;z-index: 999; line-height: 28px;padding:8px 10px;text-align:center;box-sizing: border-box;}
+.nospace li a{color: #a5a5a5;text-decoration: none;} 
+.nospace li a:hover{color: white;}
+.content_top{width: 63%;margin: 0 auto;padding-bottom: 15px;box-sizing: border-box;}
+.top_tk a:hover{background: orangered}
+
+/*鼠标小手*/
+.cush{cursor: pointer;}
+
+/*导航栏*/
+.logo a img{width: 95%;height: 100%;}
+.clearfix li a{color: #333333;}
+.clearfix li a:hover{color: #003c84 !important;border-bottom: 2px solid #003c84;}
+.nav_right{padding-top: 1%;box-sizing: border-box;}
+
+/*搜索框*/
+.cen{width: 20%;overflow: hidden;float: right;    position: relative;top: -65px;}
+.cen input{width: 100%;height: 40px;border-radius: 20px;font-size: 10px;outline: none;border: 1px solid #707070;padding-left: 15px;box-sizing: border-box;}
+.inp{width:30px;height:30px;position: relative;top: 37px;left: 83%; cursor: pointer;}
+
+/*分类导航*/
+.fx{position: relative;top: -40px;}
+.ab{position: absolute;left:-225px;z-index: 990;}
+.ul_01{padding-bottom: 30px !important; box-sizing: border-box;}
+.pbg{height: 40px;background: url(../img/rightj.png)no-repeat right; margin-bottom: 0px;}
+.pbg:hover{background: orange;}
+.sp_a{position: relative;top: 10px;}
+.nav_detail{padding: 15px;}
+.nav_detail img{width: 45%;height: 65px;margin-right: 2%;}
+.nav_detail p a{float: right;position: relative;top: 20px;}
+.nav_detail p a:hover{color: white;}
+.fu_re{width:63%;margin: 0 auto;position: absolute;left: 225px;}
+.nav_list_s{height: 76px;}
+
+/*产品*/
+.cp{width: 100%;overflow:hidden;margin: 0 auto;}
+.cp img{width: 100%;height: 100%;}
+.font_en{float: right;}
+.ct01{color: #333333;font-size: 18px;font-family: 苹方简体;font-weight: bold;margin-top: 6px;}
+.ct02{color: #4a4a4a;font-size: 16px;font-family: 苹方简体;}
+.pro_com1{overflow: initial;}
+.width25{width: 25%;}
+.width90{width: 95%;}
+.my_a{text-align: center;font-weight: bold; color: black;}
+.pro_title span{font-family: 苹方简体;font-size: 14px;font-weight: bold;}
+.dw{margin-right: 15px;margin-top: 5px;}
+
+
+/*通栏广告*/
+.guangg{width: 100%;height:120px ;margin: 0 auto;}
+.guangg img{width: 100%;height: 100%;}
+
+
+/*轮播*/
+.pro_com1 a{float: left;}
+
+/*更多*/
+.sm_li li{float: left;margin-right: 3%; line-height: 20px;color: #a5a5a5;}
+.dis_c{display: contents;color: #a5a5a5;font-weight: bold;font-family: 苹方简体;}
+#gd{padding-right: 30px;box-sizing: border-box;color: #003b83;font-size: 16px;}
+
+/*footer*/
+.footer{clear: both;}
+.ul_1{border: none;}
+.em{position: relative;top: -40px;right: 30px;}
+.clearfix ul li a:focus{color: white;}
+.wz{position: relative;top: 65px;right: -50px;}
+
+/*弹框*/
+.hamburger{display: none !important;}
+
+
+/* Back to Top */
+#backtotop{z-index:999; display:inline-block;background: #f4f4f4; position:fixed; visibility:hidden; bottom:100px; right:200px; width:40px; height:120px; line-height:40px; font-size:16px; text-align:center; opacity:.2;}
+#backtotop.visible{visibility:visible; opacity:.5;}
+
+
+/* iPad   */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.home_pro{width: 100%;}
+	.fu_re{display: none;}
+	.header{display: none;}
+	.right_no{display: none;}
+	.content_top {width: 73%;}
+	.fx{position: relative;top: 0;}
+	#backtotop{position: fixed;bottom: 1%;right: 2%;}
+}
+/* iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+	.content_top {width: 87%;}
+}
+/* 移动端 */
+@media only screen and (min-width: 320px) and (max-width: 823px){
+	.header{display: none;}
+	#topbar{display: none;}
+	.fu_re{display: none;}
+	.right_no{display: none;}
+}
